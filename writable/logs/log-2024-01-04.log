@@ -1,0 +1,368 @@
+ERROR - 2024-01-04 05:22:44 --> Email: sendWithMail throwed ErrorException: mail(): Failed to connect to mailserver at &quot;localhost&quot; port 25, verify your &quot;SMTP&quot; and &quot;smtp_port&quot; setting in php.ini or use ini_set() in C:\xampp\htdocs\cpd\system\Email\Email.php:1747
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'mail(): Failed ...', 'C:\\xampp\\htdocs...', 1747)
+#1 C:\xampp\htdocs\cpd\system\Email\Email.php(1747): mail('someone@example...', '=?UTF-8?Q?Email...', 'Testing the ema...', 'Date: Thu, 4 Ja...')
+#2 C:\xampp\htdocs\cpd\system\Email\Email.php(1684): CodeIgniter\Email\Email->sendWithMail()
+#3 C:\xampp\htdocs\cpd\system\Email\Email.php(1578): CodeIgniter\Email\Email->spoolEmail()
+#4 C:\xampp\htdocs\cpd\app\Controllers\Home.php(59): CodeIgniter\Email\Email->send()
+#5 C:\xampp\htdocs\cpd\system\CodeIgniter.php(942): App\Controllers\Home->sendContact()
+#6 C:\xampp\htdocs\cpd\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\cpd\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\cpd\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\cpd\system\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+ERROR - 2024-01-04 05:22:44 --> Email: Unable to send email using PHP mail(). Your server might not be configured to send mail using this method.
+ERROR - 2024-01-04 05:22:44 --> 
+ERROR - 2024-01-04 05:24:50 --> Email: sendWithMail throwed ErrorException: mail(): Failed to connect to mailserver at &quot;localhost&quot; port 25, verify your &quot;SMTP&quot; and &quot;smtp_port&quot; setting in php.ini or use ini_set() in C:\xampp\htdocs\cpd\system\Email\Email.php:1747
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'mail(): Failed ...', 'C:\\xampp\\htdocs...', 1747)
+#1 C:\xampp\htdocs\cpd\system\Email\Email.php(1747): mail('someone@example...', '=?UTF-8?Q?Email...', 'Testing the ema...', 'Date: Thu, 4 Ja...')
+#2 C:\xampp\htdocs\cpd\system\Email\Email.php(1684): CodeIgniter\Email\Email->sendWithMail()
+#3 C:\xampp\htdocs\cpd\system\Email\Email.php(1578): CodeIgniter\Email\Email->spoolEmail()
+#4 C:\xampp\htdocs\cpd\app\Controllers\Home.php(59): CodeIgniter\Email\Email->send()
+#5 C:\xampp\htdocs\cpd\system\CodeIgniter.php(942): App\Controllers\Home->sendContact()
+#6 C:\xampp\htdocs\cpd\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\cpd\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\cpd\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\cpd\system\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+ERROR - 2024-01-04 05:24:50 --> Email: Unable to send email using PHP mail(). Your server might not be configured to send mail using this method.
+ERROR - 2024-01-04 05:24:50 --> 
+ERROR - 2024-01-04 05:24:57 --> Email: sendWithMail throwed ErrorException: mail(): Failed to connect to mailserver at &quot;localhost&quot; port 25, verify your &quot;SMTP&quot; and &quot;smtp_port&quot; setting in php.ini or use ini_set() in C:\xampp\htdocs\cpd\system\Email\Email.php:1747
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'mail(): Failed ...', 'C:\\xampp\\htdocs...', 1747)
+#1 C:\xampp\htdocs\cpd\system\Email\Email.php(1747): mail('someone@example...', '=?UTF-8?Q?Email...', 'Testing the ema...', 'Date: Thu, 4 Ja...')
+#2 C:\xampp\htdocs\cpd\system\Email\Email.php(1684): CodeIgniter\Email\Email->sendWithMail()
+#3 C:\xampp\htdocs\cpd\system\Email\Email.php(1578): CodeIgniter\Email\Email->spoolEmail()
+#4 C:\xampp\htdocs\cpd\app\Controllers\Home.php(59): CodeIgniter\Email\Email->send()
+#5 C:\xampp\htdocs\cpd\system\CodeIgniter.php(942): App\Controllers\Home->sendContact()
+#6 C:\xampp\htdocs\cpd\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\cpd\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\cpd\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\cpd\system\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+ERROR - 2024-01-04 05:24:57 --> Email: Unable to send email using PHP mail(). Your server might not be configured to send mail using this method.
+ERROR - 2024-01-04 05:24:57 --> 
+ERROR - 2024-01-04 05:25:37 --> Email: sendWithMail throwed ErrorException: mail(): Failed to connect to mailserver at &quot;localhost&quot; port 25, verify your &quot;SMTP&quot; and &quot;smtp_port&quot; setting in php.ini or use ini_set() in C:\xampp\htdocs\cpd\system\Email\Email.php:1747
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'mail(): Failed ...', 'C:\\xampp\\htdocs...', 1747)
+#1 C:\xampp\htdocs\cpd\system\Email\Email.php(1747): mail('someone@example...', '=?UTF-8?Q?Email...', 'Testing the ema...', 'Date: Thu, 4 Ja...')
+#2 C:\xampp\htdocs\cpd\system\Email\Email.php(1684): CodeIgniter\Email\Email->sendWithMail()
+#3 C:\xampp\htdocs\cpd\system\Email\Email.php(1578): CodeIgniter\Email\Email->spoolEmail()
+#4 C:\xampp\htdocs\cpd\app\Controllers\Home.php(62): CodeIgniter\Email\Email->send()
+#5 C:\xampp\htdocs\cpd\system\CodeIgniter.php(942): App\Controllers\Home->sendContact()
+#6 C:\xampp\htdocs\cpd\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\cpd\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\cpd\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\cpd\system\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+ERROR - 2024-01-04 05:25:37 --> Email: Unable to send email using PHP mail(). Your server might not be configured to send mail using this method.
+ERROR - 2024-01-04 05:25:37 --> 
+ERROR - 2024-01-04 05:25:43 --> Email: sendWithMail throwed ErrorException: mail(): Failed to connect to mailserver at &quot;localhost&quot; port 25, verify your &quot;SMTP&quot; and &quot;smtp_port&quot; setting in php.ini or use ini_set() in C:\xampp\htdocs\cpd\system\Email\Email.php:1747
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'mail(): Failed ...', 'C:\\xampp\\htdocs...', 1747)
+#1 C:\xampp\htdocs\cpd\system\Email\Email.php(1747): mail('someone@example...', '=?UTF-8?Q?Email...', 'Testing the ema...', 'Date: Thu, 4 Ja...')
+#2 C:\xampp\htdocs\cpd\system\Email\Email.php(1684): CodeIgniter\Email\Email->sendWithMail()
+#3 C:\xampp\htdocs\cpd\system\Email\Email.php(1578): CodeIgniter\Email\Email->spoolEmail()
+#4 C:\xampp\htdocs\cpd\app\Controllers\Home.php(62): CodeIgniter\Email\Email->send()
+#5 C:\xampp\htdocs\cpd\system\CodeIgniter.php(942): App\Controllers\Home->sendContact()
+#6 C:\xampp\htdocs\cpd\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\cpd\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\cpd\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\cpd\system\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+ERROR - 2024-01-04 05:25:43 --> Email: Unable to send email using PHP mail(). Your server might not be configured to send mail using this method.
+ERROR - 2024-01-04 05:25:43 --> 
+ERROR - 2024-01-04 05:28:27 --> Email: sendWithMail throwed ErrorException: mail(): Failed to connect to mailserver at &quot;localhost&quot; port 25, verify your &quot;SMTP&quot; and &quot;smtp_port&quot; setting in php.ini or use ini_set() in C:\xampp\htdocs\cpd\system\Email\Email.php:1747
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'mail(): Failed ...', 'C:\\xampp\\htdocs...', 1747)
+#1 C:\xampp\htdocs\cpd\system\Email\Email.php(1747): mail('someone@example...', '=?UTF-8?Q?Email...', 'Testing the ema...', 'Date: Thu, 4 Ja...')
+#2 C:\xampp\htdocs\cpd\system\Email\Email.php(1684): CodeIgniter\Email\Email->sendWithMail()
+#3 C:\xampp\htdocs\cpd\system\Email\Email.php(1578): CodeIgniter\Email\Email->spoolEmail()
+#4 C:\xampp\htdocs\cpd\app\Controllers\Home.php(62): CodeIgniter\Email\Email->send()
+#5 C:\xampp\htdocs\cpd\system\CodeIgniter.php(942): App\Controllers\Home->sendContact()
+#6 C:\xampp\htdocs\cpd\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\cpd\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\cpd\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\cpd\system\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+ERROR - 2024-01-04 05:28:27 --> Email: Unable to send email using PHP mail(). Your server might not be configured to send mail using this method.
+ERROR - 2024-01-04 05:28:27 --> 
+ERROR - 2024-01-04 05:40:21 --> Email: sendWithMail throwed ErrorException: mail(): Failed to connect to mailserver at &quot;localhost&quot; port 25, verify your &quot;SMTP&quot; and &quot;smtp_port&quot; setting in php.ini or use ini_set() in C:\xampp\htdocs\cpd\system\Email\Email.php:1747
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'mail(): Failed ...', 'C:\\xampp\\htdocs...', 1747)
+#1 C:\xampp\htdocs\cpd\system\Email\Email.php(1747): mail('sanitech47@gmai...', '=?UTF-8?Q?Email...', 'Testing the ema...', 'Date: Thu, 4 Ja...')
+#2 C:\xampp\htdocs\cpd\system\Email\Email.php(1684): CodeIgniter\Email\Email->sendWithMail()
+#3 C:\xampp\htdocs\cpd\system\Email\Email.php(1578): CodeIgniter\Email\Email->spoolEmail()
+#4 C:\xampp\htdocs\cpd\app\Controllers\Home.php(62): CodeIgniter\Email\Email->send()
+#5 C:\xampp\htdocs\cpd\system\CodeIgniter.php(942): App\Controllers\Home->sendContact()
+#6 C:\xampp\htdocs\cpd\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\cpd\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\cpd\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\cpd\system\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+ERROR - 2024-01-04 05:40:21 --> Email: Unable to send email using PHP mail(). Your server might not be configured to send mail using this method.
+ERROR - 2024-01-04 05:40:21 --> 
+ERROR - 2024-01-04 05:40:49 --> Email: sendWithMail throwed ErrorException: mail(): Failed to connect to mailserver at &quot;localhost&quot; port 25, verify your &quot;SMTP&quot; and &quot;smtp_port&quot; setting in php.ini or use ini_set() in C:\xampp\htdocs\cpd\system\Email\Email.php:1747
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'mail(): Failed ...', 'C:\\xampp\\htdocs...', 1747)
+#1 C:\xampp\htdocs\cpd\system\Email\Email.php(1747): mail('sanitech47@gmai...', '=?UTF-8?Q?Email...', 'Testing the ema...', 'Date: Thu, 4 Ja...')
+#2 C:\xampp\htdocs\cpd\system\Email\Email.php(1684): CodeIgniter\Email\Email->sendWithMail()
+#3 C:\xampp\htdocs\cpd\system\Email\Email.php(1578): CodeIgniter\Email\Email->spoolEmail()
+#4 C:\xampp\htdocs\cpd\app\Controllers\Home.php(62): CodeIgniter\Email\Email->send()
+#5 C:\xampp\htdocs\cpd\system\CodeIgniter.php(942): App\Controllers\Home->sendContact()
+#6 C:\xampp\htdocs\cpd\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\cpd\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\cpd\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\cpd\system\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+ERROR - 2024-01-04 05:40:49 --> Email: Unable to send email using PHP mail(). Your server might not be configured to send mail using this method.
+ERROR - 2024-01-04 05:40:49 --> 
+ERROR - 2024-01-04 05:41:49 --> Email: sendWithSmtp throwed ErrorException: fsockopen(): SSL: An existing connection was forcibly closed by the remote host in C:\xampp\htdocs\cpd\system\Email\Email.php:1886
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'fsockopen(): SS...', 'C:\\xampp\\htdocs...', 1886)
+#1 C:\xampp\htdocs\cpd\system\Email\Email.php(1886): fsockopen('ssl://smtp.gmai...', 465, NULL, NULL, 60)
+#2 C:\xampp\htdocs\cpd\system\Email\Email.php(1799): CodeIgniter\Email\Email->SMTPConnect()
+#3 C:\xampp\htdocs\cpd\system\Email\Email.php(1684): CodeIgniter\Email\Email->sendWithSmtp()
+#4 C:\xampp\htdocs\cpd\system\Email\Email.php(1578): CodeIgniter\Email\Email->spoolEmail()
+#5 C:\xampp\htdocs\cpd\app\Controllers\Home.php(62): CodeIgniter\Email\Email->send()
+#6 C:\xampp\htdocs\cpd\system\CodeIgniter.php(942): App\Controllers\Home->sendContact()
+#7 C:\xampp\htdocs\cpd\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#8 C:\xampp\htdocs\cpd\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\cpd\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\cpd\system\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+ERROR - 2024-01-04 05:41:49 --> Email: Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+ERROR - 2024-01-04 05:41:49 --> 
+ERROR - 2024-01-04 05:42:36 --> Email: sendWithSmtp throwed ErrorException: fsockopen(): SSL: An existing connection was forcibly closed by the remote host in C:\xampp\htdocs\cpd\system\Email\Email.php:1886
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'fsockopen(): SS...', 'C:\\xampp\\htdocs...', 1886)
+#1 C:\xampp\htdocs\cpd\system\Email\Email.php(1886): fsockopen('ssl://smtp.gmai...', 465, NULL, NULL, 60)
+#2 C:\xampp\htdocs\cpd\system\Email\Email.php(1799): CodeIgniter\Email\Email->SMTPConnect()
+#3 C:\xampp\htdocs\cpd\system\Email\Email.php(1684): CodeIgniter\Email\Email->sendWithSmtp()
+#4 C:\xampp\htdocs\cpd\system\Email\Email.php(1578): CodeIgniter\Email\Email->spoolEmail()
+#5 C:\xampp\htdocs\cpd\app\Controllers\Home.php(62): CodeIgniter\Email\Email->send()
+#6 C:\xampp\htdocs\cpd\system\CodeIgniter.php(942): App\Controllers\Home->sendContact()
+#7 C:\xampp\htdocs\cpd\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#8 C:\xampp\htdocs\cpd\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\cpd\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\cpd\system\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+ERROR - 2024-01-04 05:42:36 --> Email: Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+ERROR - 2024-01-04 05:42:36 --> 
+INFO - 2024-01-04 05:55:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-04 05:56:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-04 05:57:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-04 05:58:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-04 05:58:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-01-04 05:58:47 --> Email: Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+ERROR - 2024-01-04 05:58:47 --> 220 smtp.gmail.com ESMTP n7-20020a05600c500700b0040d81ca11casm4535880wmr.28 - gsmtp
+
+hello: 250-smtp.gmail.com at your service, [196.188.188.27]
+250-SIZE 35882577
+250-8BITMIME
+250-AUTH LOGIN PLAIN XOAUTH2 PLAIN-CLIENTTOKEN OAUTHBEARER XOAUTH
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250-CHUNKING
+250 SMTPUTF8
+
+Failed to authenticate password. Error: 535-5.7.8 Username and Password not accepted. For more information, go to
+535 5.7.8  https://support.google.com/mail/?p=BadCredentials n7-20020a05600c500700b0040d81ca11casm4535880wmr.28 - gsmtp
+
+ERROR - 2024-01-04 06:00:50 --> Email: sendWithSmtp throwed ErrorException: fsockopen(): php_network_getaddresses: getaddrinfo for smtp.gmail.com failed: No such host is known.  in C:\xampp\htdocs\cpd\system\Email\Email.php:1886
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'fsockopen(): ph...', 'C:\\xampp\\htdocs...', 1886)
+#1 C:\xampp\htdocs\cpd\system\Email\Email.php(1886): fsockopen('ssl://smtp.gmai...', 465, NULL, NULL, 60)
+#2 C:\xampp\htdocs\cpd\system\Email\Email.php(1799): CodeIgniter\Email\Email->SMTPConnect()
+#3 C:\xampp\htdocs\cpd\system\Email\Email.php(1684): CodeIgniter\Email\Email->sendWithSmtp()
+#4 C:\xampp\htdocs\cpd\system\Email\Email.php(1578): CodeIgniter\Email\Email->spoolEmail()
+#5 C:\xampp\htdocs\cpd\app\Controllers\Home.php(84): CodeIgniter\Email\Email->send()
+#6 C:\xampp\htdocs\cpd\system\CodeIgniter.php(942): App\Controllers\Home->sendContact()
+#7 C:\xampp\htdocs\cpd\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#8 C:\xampp\htdocs\cpd\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\cpd\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\cpd\system\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+ERROR - 2024-01-04 06:00:50 --> Email: Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+ERROR - 2024-01-04 06:00:50 --> 
+ERROR - 2024-01-04 08:33:03 --> Error connecting to the database: mysqli_sql_exception: No connection could be made because the target machine actively refused it in C:\xampp\htdocs\cpd\system\Database\MySQLi\Connection.php:184
+Stack trace:
+#0 C:\xampp\htdocs\cpd\system\Database\MySQLi\Connection.php(184): mysqli->real_connect('localhost', 'root', Object(SensitiveParameterValue), 'cpd', 3306, '', 0)
+#1 C:\xampp\htdocs\cpd\system\Database\BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\xampp\htdocs\cpd\system\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\xampp\htdocs\cpd\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\cpd\system\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\cpd\system\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\cpd\app\Controllers\Home.php(19): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\cpd\system\CodeIgniter.php(942): App\Controllers\Home->index()
+#8 C:\xampp\htdocs\cpd\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#9 C:\xampp\htdocs\cpd\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\cpd\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#11 C:\xampp\htdocs\cpd\system\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs...')
+#12 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: No connection could be made because the target machine actively refused it in C:\xampp\htdocs\cpd\system\Database\MySQLi\Connection.php:229
+Stack trace:
+#0 C:\xampp\htdocs\cpd\system\Database\BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\xampp\htdocs\cpd\system\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\xampp\htdocs\cpd\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 C:\xampp\htdocs\cpd\system\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+#4 C:\xampp\htdocs\cpd\system\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+#5 C:\xampp\htdocs\cpd\app\Controllers\Home.php(19): CodeIgniter\BaseModel->findAll()
+#6 C:\xampp\htdocs\cpd\system\CodeIgniter.php(942): App\Controllers\Home->index()
+#7 C:\xampp\htdocs\cpd\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#8 C:\xampp\htdocs\cpd\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\cpd\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\cpd\system\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+CRITICAL - 2024-01-04 08:33:03 --> Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it
+in SYSTEMPATH\Database\BaseConnection.php on line 428.
+ 1 SYSTEMPATH\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `category`
+WHERE `status` = :status:', [...], false)
+ 3 SYSTEMPATH\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+ 5 APPPATH\Controllers\Home.php(19): CodeIgniter\BaseModel->findAll()
+ 6 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Home->index()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\cpd\\public\\index.php')
+ERROR - 2024-01-04 08:33:14 --> Error connecting to the database: mysqli_sql_exception: No connection could be made because the target machine actively refused it in C:\xampp\htdocs\cpd\system\Database\MySQLi\Connection.php:184
+Stack trace:
+#0 C:\xampp\htdocs\cpd\system\Database\MySQLi\Connection.php(184): mysqli->real_connect('localhost', 'root', Object(SensitiveParameterValue), 'cpd', 3306, '', 0)
+#1 C:\xampp\htdocs\cpd\system\Database\BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\xampp\htdocs\cpd\system\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\xampp\htdocs\cpd\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\cpd\system\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\cpd\system\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\cpd\app\Controllers\Home.php(19): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\cpd\system\CodeIgniter.php(942): App\Controllers\Home->index()
+#8 C:\xampp\htdocs\cpd\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#9 C:\xampp\htdocs\cpd\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\cpd\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#11 C:\xampp\htdocs\cpd\system\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs...')
+#12 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: No connection could be made because the target machine actively refused it in C:\xampp\htdocs\cpd\system\Database\MySQLi\Connection.php:229
+Stack trace:
+#0 C:\xampp\htdocs\cpd\system\Database\BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\xampp\htdocs\cpd\system\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\xampp\htdocs\cpd\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 C:\xampp\htdocs\cpd\system\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+#4 C:\xampp\htdocs\cpd\system\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+#5 C:\xampp\htdocs\cpd\app\Controllers\Home.php(19): CodeIgniter\BaseModel->findAll()
+#6 C:\xampp\htdocs\cpd\system\CodeIgniter.php(942): App\Controllers\Home->index()
+#7 C:\xampp\htdocs\cpd\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#8 C:\xampp\htdocs\cpd\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\cpd\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\cpd\system\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+CRITICAL - 2024-01-04 08:33:14 --> Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it
+in SYSTEMPATH\Database\BaseConnection.php on line 428.
+ 1 SYSTEMPATH\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `category`
+WHERE `status` = :status:', [...], false)
+ 3 SYSTEMPATH\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+ 5 APPPATH\Controllers\Home.php(19): CodeIgniter\BaseModel->findAll()
+ 6 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Home->index()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\cpd\\public\\index.php')
+ERROR - 2024-01-04 12:03:31 --> Email: Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+ERROR - 2024-01-04 12:03:31 --> 220 smtp.gmail.com ESMTP c12-20020adffb0c000000b00336f2edb5e0sm19889825wrr.14 - gsmtp
+
+hello: 250-smtp.gmail.com at your service, [196.189.123.22]
+250-SIZE 35882577
+250-8BITMIME
+250-AUTH LOGIN PLAIN XOAUTH2 PLAIN-CLIENTTOKEN OAUTHBEARER XOAUTH
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250-CHUNKING
+250 SMTPUTF8
+
+Failed to authenticate password. Error: 535-5.7.8 Username and Password not accepted. For more information, go to
+535 5.7.8  https://support.google.com/mail/?p=BadCredentials c12-20020adffb0c000000b00336f2edb5e0sm19889825wrr.14 - gsmtp
+
+ERROR - 2024-01-04 12:03:40 --> Email: Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+ERROR - 2024-01-04 12:03:40 --> 220 smtp.gmail.com ESMTP p20-20020a05600c469400b0040d85a304desm5575740wmo.35 - gsmtp
+
+hello: 250-smtp.gmail.com at your service, [196.189.123.22]
+250-SIZE 35882577
+250-8BITMIME
+250-AUTH LOGIN PLAIN XOAUTH2 PLAIN-CLIENTTOKEN OAUTHBEARER XOAUTH
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250-CHUNKING
+250 SMTPUTF8
+
+Failed to authenticate password. Error: 535-5.7.8 Username and Password not accepted. For more information, go to
+535 5.7.8  https://support.google.com/mail/?p=BadCredentials p20-20020a05600c469400b0040d85a304desm5575740wmo.35 - gsmtp
+
+ERROR - 2024-01-04 12:04:00 --> Email: Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+ERROR - 2024-01-04 12:04:00 --> 220 smtp.gmail.com ESMTP hn33-20020a05600ca3a100b0040d5ae2905asm5387941wmb.30 - gsmtp
+
+hello: 250-smtp.gmail.com at your service, [196.189.123.22]
+250-SIZE 35882577
+250-8BITMIME
+250-AUTH LOGIN PLAIN XOAUTH2 PLAIN-CLIENTTOKEN OAUTHBEARER XOAUTH
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250-CHUNKING
+250 SMTPUTF8
+
+Failed to authenticate password. Error: 535-5.7.8 Username and Password not accepted. For more information, go to
+535 5.7.8  https://support.google.com/mail/?p=BadCredentials hn33-20020a05600ca3a100b0040d5ae2905asm5387941wmb.30 - gsmtp
+
+ERROR - 2024-01-04 12:12:24 --> Email: Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+ERROR - 2024-01-04 12:12:24 --> 220 smtp.gmail.com ESMTP c6-20020adfe706000000b0033342338a24sm33058510wrm.6 - gsmtp
+
+hello: 250-smtp.gmail.com at your service, [196.189.123.22]
+250-SIZE 35882577
+250-8BITMIME
+250-AUTH LOGIN PLAIN XOAUTH2 PLAIN-CLIENTTOKEN OAUTHBEARER XOAUTH
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250-CHUNKING
+250 SMTPUTF8
+
+Failed to authenticate password. Error: 534-5.7.9 Application-specific password required. For more information, go to
+534 5.7.9  https://support.google.com/mail/?p=InvalidSecondFactor c6-20020adfe706000000b0033342338a24sm33058510wrm.6 - gsmtp
+
+ERROR - 2024-01-04 12:14:23 --> Email: Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+ERROR - 2024-01-04 12:14:23 --> 220 smtp.gmail.com ESMTP k4-20020a5d5244000000b003368c8d120fsm31696133wrc.7 - gsmtp
+
+hello: 250-smtp.gmail.com at your service, [196.189.123.22]
+250-SIZE 35882577
+250-8BITMIME
+250-AUTH LOGIN PLAIN XOAUTH2 PLAIN-CLIENTTOKEN OAUTHBEARER XOAUTH
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250-CHUNKING
+250 SMTPUTF8
+
+Failed to authenticate password. Error: 534-5.7.9 Application-specific password required. For more information, go to
+534 5.7.9  https://support.google.com/mail/?p=InvalidSecondFactor k4-20020a5d5244000000b003368c8d120fsm31696133wrc.7 - gsmtp
+
+ERROR - 2024-01-04 12:14:34 --> Email: Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+ERROR - 2024-01-04 12:14:34 --> 220 smtp.gmail.com ESMTP h17-20020a05600c351100b0040e350e4f75sm1006672wmq.13 - gsmtp
+
+hello: 250-smtp.gmail.com at your service, [196.189.123.22]
+250-SIZE 35882577
+250-8BITMIME
+250-AUTH LOGIN PLAIN XOAUTH2 PLAIN-CLIENTTOKEN OAUTHBEARER XOAUTH
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250-CHUNKING
+250 SMTPUTF8
+
+Failed to authenticate password. Error: 534-5.7.9 Application-specific password required. For more information, go to
+534 5.7.9  https://support.google.com/mail/?p=InvalidSecondFactor h17-20020a05600c351100b0040e350e4f75sm1006672wmq.13 - gsmtp
+

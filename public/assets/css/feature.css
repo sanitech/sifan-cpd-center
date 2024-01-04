@@ -1,0 +1,129 @@
+:root {
+  --icon-background: #000000;
+}
+.feature-card-feature-card {
+  width: 100%;
+  display: grid;
+  padding: var(--dl-space-space-twounits);
+  position: relative;
+  grid-template-columns: 2.5rem auto;
+  grid-template-rows: auto auto;
+  grid-template-areas:
+    "ficon futerText"
+    "ficon futureDesc";
+  border-radius: var(--dl-radius-radius-radius8);
+  background-color: var(--preview-color);
+}
+.feature-card-icon {
+  fill: var(--dl-color-primary1-blue80);
+  width: 2rem;
+  height: 2rem;
+  flex-shrink: 0;
+  margin-right: var(--dl-space-space-oneandhalfunits);
+  grid-area: ficon;
+  color: var(--icon-background);
+}
+
+.feature-card-container {
+  gap: var(--dl-space-space-unit);
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.feature-card-text {
+  font-family: "Raleway";
+  font-weight: 600;
+  line-height: 28px;
+  grid-area: futerText;
+}
+.feature-card-text1 {
+  color: var(--dl-color-gray-800);
+  line-height: 1.6;
+  grid-area: futureDesc;
+}
+
+.font20 {
+  font-size: 20px;
+}
+
+.home-features {
+  flex: 0 0 auto;
+  width: 100%;
+  height: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 30px 0;
+}
+.home-features-container {
+  flex: 0 0 auto;
+  width: 80%;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  background-color: var(--dl-color-secondary-grey400);
+}
+.home-features1 {
+  gap: var(--dl-space-space-threeunits);
+  width: 100%;
+  display: flex;
+  max-width: var(--dl-size-size-maxwidth);
+  align-items: center;
+  padding-top: var(--dl-space-space-fourunits);
+  padding-left: var(--dl-space-space-threeunits);
+  padding-right: var(--dl-space-space-threeunits);
+  flex-direction: column;
+  padding-bottom: var(--dl-space-space-fourunits);
+  justify-content: flex-start;
+}
+.home-container03 {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+
+.home-text03 {
+  color: var(--primary-color);
+  font-family: "Raleway";
+  /* margin-bottom: var(--dl-space-space-oneandhalfunits); */
+  text-transform: uppercase;
+}
+.home-features-heading {
+  font-family: "Raleway";
+  line-height: 1.6;
+  margin-bottom: var(--dl-space-space-oneandhalfunits);
+}
+.home-features-sub-heading {
+  text-align: center;
+  line-height: 1.6;
+}
+.home-container04 {
+  width: 100%;
+  display: grid;
+  grid-gap: var(--dl-space-space-twounits);
+  grid-template-columns: 1fr 1fr;
+}
+@media (max-width: 767px) {
+  .feature-card-feature-card {
+    flex-direction: row;
+    grid-template-areas:
+      "ficon futerText"
+      "futureDesc futureDesc";
+  }
+  .feature-card-container {
+    flex-direction: column;
+  }
+
+  .home-container04 {
+    grid-template-columns: 1fr;
+  }
+}
+@media (max-width: 479px) {
+  .feature-card-container {
+    flex-direction: column;
+  }
+}

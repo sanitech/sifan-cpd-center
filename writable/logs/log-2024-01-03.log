@@ -1,0 +1,8 @@
+CRITICAL - 2024-01-03 17:01:18 --> Trying to access array offset on value of type null
+in APPPATH\Controllers\Course.php on line 39.
+ 1 APPPATH\Controllers\Course.php(39): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\cpd\\app\\Controllers\\Course.php', 39)
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Course->courseBySingle('4')
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Course))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\cpd\\public\\index.php')
