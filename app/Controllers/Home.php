@@ -66,29 +66,11 @@ class Home extends BaseController
         $email = "sanitechdad@gmail.com";
         $message = "You can do something with this email address";
 
-        // Load the email library
-        $emailLib = \Config\Services::email();
 
-        // Email configuration
-        $emailConfig['mailType'] = 'html';
-        $emailConfig['charset'] = 'utf-8';
-        $emailLib->initialize($emailConfig);
-
-        // Email content
-        $emailLib->setFrom($email, $name);
-        $emailLib->setTo('sanitech47@gmail.com'); // Replace with your email
-        $emailLib->setSubject('Contact Form Submission');
-        $emailLib->setMessage("Name: $name<br>Email: $email<br>Message: $message");
-
-        // Send the email
-        if ($emailLib->send()) {
-            // Email sent successfully
+        if (mail('sanitech47@gmail.com', "new user registration", $message)) {
             echo 'success';
-            // return redirect()->to('/contact')->with('success', 'Email sent successfully.');
         } else {
-            // Email failed to send
             echo 'error';
-            // return redirect()->to('/contact')->with('error', 'Email failed to send. Please try again later.');
         }
     }
 }

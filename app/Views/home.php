@@ -18,12 +18,11 @@ include_once 'include/navbar.php';
 
 <!-- hero-section-start -->
 
-<header class="hero" id="home">
+<!-- <header class="heros" id="home">
     <div class="hero-text">
         <h1>Take Charge of Your Future.
             Unlock Your <span>Potential</span> With CPD</h1>
-        <p>Explore a diverse range of courses in online, in-person,
-            and blended formats</p>
+        <p>To produce preferred and qualified health professionals and provide new and up-to-date training</p>
         <a href="#course"> <button class="call-us-btn">Explore our courses</button></a>
     </div>
 
@@ -33,8 +32,41 @@ include_once 'include/navbar.php';
 
     </div>
 </header>
-<!-- hero-section-start -->
+hero-section-start -->
 
+<script src="https://cdn.tailwindcss.com"></script>
+<script>
+    tailwind.config = {
+        theme: {
+            extend: {
+                colors: {
+                    clifford: '#da373d',
+                }
+            }
+        }
+    }
+</script>
+
+<section class="dark:bg-gray-800 dark:text-gray-100">
+    <div class="container flex flex-col justify-center p-6 mx-auto sm:py-12 lg:py-24 lg:flex-row lg:justify-between">
+        <div class="flex flex-col justify-center p-6 text-center rounded-sm lg:max-w-md xl:max-w-lg lg:text-left">
+            <h1 class="text-5xl font-bold leadi sm:text-6xl">
+                Unlock Your <span class="dark:text-violet-400">Potential</span> With CPD
+            </h1>
+            </h1>
+            <p class="mt-6 mb-8 text-lg sm:mb-12">To produce preferred and qualified health professionals and provide new and up-to-date training
+                <!-- <br class="hidden md:inline lg:hidden">turpis pulvinar, est scelerisque ligula sem -->
+            </p>
+            <div class="flex flex-col space-y-4 sm:items-center sm:justify-center sm:flex-row sm:space-y-0 sm:space-x-4 lg:justify-start">
+                <!-- <a rel="noopener noreferrer" href="#" class="px-8 py-3 text-lg font-semibold rounded dark:bg-violet-400 dark:text-gray-900">Suspendisse</a> -->
+                <a rel="noopener noreferrer" href="#" class="px-8 py-3 text-lg font-semibold border rounded dark:border-gray-100">Explore Our Course</a>
+            </div>
+        </div>
+        <div class="flex items-center justify-center p-6 mt-8 lg:mt-0 h-72 sm:h-80 lg:h-96 xl:h-112 2xl:h-128">
+            <img src="assets/images/sefian cpd_.png" alt="" class="object-contain h-72 sm:h-80 lg:h-96 xl:h-112 2xl:h-128">
+        </div>
+    </div>
+</section>
 
 
 <section class="course-section" id="course">
@@ -211,7 +243,12 @@ include_once 'include/navbar.php';
                 <h1 class="about-hero-motto">
                     Our Dream is Global Learning Transformation
                 </h1>
-                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eos ratione delectus fuga accusantium laborum consequatur porro a quis doloribus eligendi iste quae excepturi vel, similique totam consectetur autem tempora quia corporis minima quaerat. Praesentium dignissimos aliquid dolor ratione corporis, beatae laboriosam placeat. Molestias quibusdam voluptatibus nisi quod incidunt a saepe magnam dolorum voluptatem et. Ipsam voluptates dolorem a, non odit doloremque, voluptatem ratione, natus praesentium tempora aliquid quisquam harum ea assumenda! Eos voluptatum fugit eveniet voluptas modi vel nobis totam iure facere, beatae sequi officiis, repellendus, sunt architecto ipsam laudantium iste voluptatem praesentium exercitationem vitae ipsa et. Numquam, id modi!</p>
+                <p>SIFAN CPD Center is your one-stop shop for continuous professional development (CPD) in
+                    Ethiopia. We believe that healthcare professionals
+                    deserve the best possible education and training to deliver the highest
+                    quality care to their patients. That's why we offer a wide range of high-quality,
+                    accessible, and relevant CPD programs tailored to the needs of doctors, nurses,
+                    pharmacists, and other healthcare workers.</p>
 
             </div>
 
@@ -518,118 +555,10 @@ endif;
 
 
 
-<section class="faq-container">
-    <div class="home-faq">
-        <div class="home-faq-container">
-            <div class="home-faq1">
-                <div class="home-container30">
-                    <span class="home-text40 sectionTitle">
-                        <span>FAQ</span>
-                        <br />
-                    </span>
-                    <h2 class="home-text43 heading2">Common questions</h2>
-                    <span class="home-text44">
-                        <span>
-                            Here are some of the most common questions that we get.
-                        </span>
-                        <br />
-                        <span>
-                            <span>
-                                <span></span>
-                                <span></span>
-                            </span>
-                            <span>
-                                <span></span>
-                                <span></span>
-                            </span>
-                        </span>
-                        <span>
-                            <span>
-                                <span></span>
-                                <span></span>
-                            </span>
-                            <span>
-                                <span></span>
-                                <span></span>
-                            </span>
-                        </span>
-                    </span>
-                </div>
-                <div class="home-container31">
-                    <div class="question-container">
-                        <span class="question-text heading4">
-                            <span>What is a CPD Center?</span>
-                        </span>
-                        <span class="question-text1">
-                            <span>
-                                A CPD Center is a professional development center that
-                                offers courses and training programs to help individuals
-                                enhance their skills and knowledge in their respective
-                                fields.
-                            </span>
-                        </span>
-                    </div>
-                    <div class="question-container">
-                        <span class="question-text heading4">
-                            <span>How can I enroll in a course?</span>
-                        </span>
-                        <span class="question-text1">
-                            <span>
-                                To enroll in a course, you can visit our website and
-                                navigate to the 'Courses' page. From there, you can browse
-                                through the available courses and click on the 'Enroll
-                                Now' button to proceed with the enrollment process.
-                            </span>
-                        </span>
-                    </div>
-                    <div class="question-container">
-                        <span class="question-text heading4">
-                            <span>Are the courses accredited?</span>
-                        </span>
-                        <span class="question-text1">
-                            <span>
-                                Yes, all of our courses are accredited by recognized
-                                institutions and professional bodies. We ensure that our
-                                courses meet the highest standards of quality and
-                                relevance.
-                            </span>
-                        </span>
-                    </div>
-                    <div class="question-container">
-                        <span class="question-text heading4">
-                            <span>
-                                Can I get a certificate upon completion of a course?
-                            </span>
-                        </span>
-                        <span class="question-text1">
-                            <span>
-                                Yes, upon successful completion of a course, you will
-                                receive a certificate of completion. This certificate can
-                                be used to showcase your professional development and
-                                enhance your career prospects.
-                            </span>
-                        </span>
-                    </div>
-                    <div class="question-container">
-                        <span class="question-text heading4">
-                            <span>How can I contact the CPD Center?</span>
-                        </span>
-                        <span class="question-text1">
-                            <span>
-                                You can contact us by visiting the 'Contact Us' page on
-                                our website. There, you will find our contact information
-                                including phone number, email address, and physical
-                                address. You can reach out to us with any inquiries or
-                                concerns you may have.
-                            </span>
-                        </span>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
+<?php
+include_once 'include/faq.php';
 
-</section>
+?>
 
 <!-- footer start -->
 <?php

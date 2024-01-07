@@ -11,6 +11,7 @@ $routes->get('contact', 'Home::contact');
 $routes->get('email', 'Home::sendContact');
 $routes->get('logout', 'Home::logout');
 $routes->get('course', 'Course::index');
+$routes->post('fetchCourse', 'Course::fetchCourse');
 $routes->get('course/(:num)', 'Course::courseBySingle/$1');
 $routes->get('category/(:num)', 'Course::courseByCategory/$1');
 

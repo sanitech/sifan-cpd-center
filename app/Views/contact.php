@@ -81,8 +81,13 @@ include_once 'include/navbar.php';
                     <input type="text" name="" id="" placeholder="Your Name">
                 </div>
 
+
                 <div class="contact-form-control">
                     <input type="text" name="" id="" placeholder="Your Email">
+                </div>
+
+                <div class="contact-form-control">
+                    <input type="text" name="" id="" placeholder="Contact us Number">
                 </div>
 
                 <div class="contact-form-control">
@@ -104,7 +109,7 @@ include_once 'include/navbar.php';
 
 <div class="map-container">
     <div class="mapouter">
-        <div class="gmap_canvas" style="width: 100%;"><iframe class="gmap_iframe" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps?width=100%&amp;height=400&amp;hl=en&amp;q=2880 Broadway, New York&amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"></iframe><a href="https://embed-googlemap.com">google maps code generator</a></div>
+        <div class="gmap_canvas" style="width: 100%;"><iframe src="https://www.google.com/maps/embed?pb=!1m13!1m8!1m3!1d909.2108870985845!2d39.1162523!3d8.591131!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zOMKwMzUnMjguMSJOIDM5wrAwNycwMC44IkU!5e1!3m2!1sen!2set!4v1704607567015!5m2!1sen!2set" width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe><a href="https://embed-googlemap.com">google maps code generator</a></div>
         <style>
             .mapouter {
                 position: relative;

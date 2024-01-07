@@ -45,6 +45,23 @@
                             </select>
                         </div>
                         <div class="mb-3">
+                            <label for="html5-date-input" class="col-md-4 col-form-label">Delivery Format</label>
+                            <div class="col-md-12">
+                                <select name="format" class="form-control" id="">
+                                    <option value="in-person">in-person</option>
+                                    <option value="Online">Online</option>
+                                    <option value="Blended">Blended</option>
+                                </select>
+                            </div>
+                        </div>
+                        <div class="mb-3">
+                            <label for="html5-date-input" class="col-md-4 col-form-label">Instructor</label>
+                            <div class="col-md-12">
+                                <input class="form-control" type="text" name="inst" value="<?php echo isset($edited) ? $edited['inst'] : '' ?>" />
+                            </div>
+                        </div>
+
+                        <div class="mb-3">
                             <label for="html5-date-input" class="col-md-4 col-form-label">Credited Hour</label>
                             <div class="col-md-12">
                                 <input class="form-control" type="number" name="cr_hour" value="<?php echo isset($edited) ? $edited['cr_hr'] : '' ?>" />

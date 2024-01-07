@@ -11,7 +11,7 @@
   padding: 20px 0;
 }
 .home-details1 {
-  width: 90%;
+  width: 80%;
   margin: auto;
   display: flex;
   max-width: var(--dl-size-size-maxwidth);
@@ -55,4 +55,20 @@
   object-fit: cover;
   margin-left: var(--dl-space-space-fourunits);
   border-radius: var(--dl-radius-radius-round);
+}
+@media (max-width: 800px) {
+  .home-details1 {
+    flex-direction: column;
+  }
+  .home-details-image {
+    width: 250px;
+    height: 250px;
+  }
+}
+
+@media (max-width: 428px) {
+  .home-details-image {
+    width: 250px;
+    height: 250px;
+  }
 }

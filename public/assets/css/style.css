@@ -7,21 +7,30 @@
 }
 
 :root {
-  --primary-background: #4caf50;
+  /* --primary-background: #c5e1a5; */
+  /* --primary-background: #27ae60; */
+  --primary-background: #b2ccff;
+  /* --primary-background: #f5d5d2; */
+  /* --primary-background: #251c6c; */
+  /* --primary-background: #6d6d72; */
+  /* --primary-background: #d1e7dd; */
+  /* --primary-background: #e8d0e0; */
   --secondary-background: #f3f3f3;
   --primary-background-dark: #040404;
   --dark-bg: #181818;
-  --primary-text-color: #ffffff;
+  --primary-text-color: #000000;
   --primary-text-color-dark: #fff;
-  --primary-color: #cbd9fe;
-  --secondary-text-color-dark: rgb(66, 66, 66);
+  --primary-color: #ffffff;
+  --secondary-text-color-dark: #617293;
   --first-line: 50%;
   --second-line: 80%;
-  --preview-color: #5ea6ca;
+  --preview-color: #a3c1fdd7;
   --line-color: #000000;
   --line-color-dark: #ffffff;
   --star-color: rgb(255, 149, 0);
   --light-primary-color: #fff;
+  --card--color: #fff;
+  --line-width: 13%;
 }
 
 @font-face {
@@ -67,7 +76,7 @@ a {
   display: flex;
   justify-content: end;
   padding: 10px 40px;
-  background-color: var(--secondary-background);
+  background-color: #a3c1fdd7;
 }
 .seo-info ul {
   display: flex;
@@ -90,9 +99,10 @@ a {
   top: 0;
   left: 0;
   right: 0;
-  background-color: var(--light-primary-color);
+  background-color: var(--primary-background);
   z-index: 1000;
   font-family: helvetica-bold, sans-serif;
+  color: var(--dark-bg);
 }
 .links ul {
   display: flex;
@@ -108,10 +118,11 @@ a {
 }
 
 /* hero */
-.hero {
+.heros {
   padding: 15px 40px;
   height: 85vh;
-  display: flex;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
   /* justify-content: */
   align-items: center;
   gap: 1rem;
@@ -154,6 +165,8 @@ a {
   /* font-weight: bold; */
   cursor: pointer;
   transition: 0.3s ease-in-out;
+  color: #ffffff;
+  background: linear-gradient(to left, #b2ccff, #2d44a4);
 }
 .call-us-btn:hover {
   background-color: #4f2fa5;
@@ -173,6 +186,8 @@ a {
   margin: 0 10px;
   text-transform: uppercase;
   font-family: helvetica;
+  font-weight: bold;
+  font-size: 19px;
 }
 .header-text {
   height: 100px;
@@ -185,7 +200,7 @@ a {
 
 .line-decorate {
   height: 20px;
-  width: 13%;
+  width: var(--line-width);
   display: flex;
   justify-content: center;
   align-items: end;
@@ -508,7 +523,7 @@ footer {
   justify-content: space-between;
   align-items: center;
   padding: 15px 40px;
-  color: #fff;
+  color: var(--primary-text-color);
   background-color: var(--primary-color);
 }
 
@@ -597,7 +612,7 @@ footer {
 
 .course-card {
   box-shadow: 0px 0px 8px -2px rgba(109, 109, 109, 0.149);
-  background-color: var(--preview-color);
+  background-color: var(--card--color);
   border-radius: 5px;
   overflow: hidden;
 }
@@ -622,6 +637,9 @@ footer {
   -webkit-line-clamp: 1; /* number of lines to show */
   -webkit-box-orient: vertical;
   overflow: hidden;
+  margin-bottom: 5px;
+  font-weight: bold;
+  font-size: 17px;
 }
 
 .course-desc {
@@ -742,6 +760,15 @@ footer {
 }
 .single-course-title {
   font-size: 2.5em;
+  margin-bottom: 15px;
+}
+.about-course-info {
+  margin: 15px 0;
+  font-size: 17px;
+}
+.about-course-info i {
+  margin-right: 15px;
+  font-size: 21px;
 }
 button {
   outline: none;
@@ -966,7 +993,7 @@ button {
 
 .contact-container-form {
   padding: 30px 0;
-  background-color: var(--secondary-background);
+  background-color: var(--light-primary-color);
 }
 
 .contact-address ul li {
@@ -1021,6 +1048,7 @@ button {
 .contact-form-container {
   padding: 30px 20px;
   background-color: var(--light-primary-color);
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
 }
 .drop {
   font-size: 18px;
@@ -1031,6 +1059,7 @@ button {
 .contact-form-control {
   margin-bottom: 15px;
   background-color: #f5f8ff;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
 }
 .contact-form-control input,
 .contact-form-control textarea {
@@ -1050,7 +1079,7 @@ button {
   background-color: var(--primary-background);
   margin: 15px 0;
   padding: 10px 15px;
-  color: var(--light-primary-color);
+  color: var(--primary-text-color);
   font-size: 18px;
   transition: 0.2s ease-in-out;
   border-radius: 5px;
@@ -1065,6 +1094,8 @@ button {
   }
   .hero-images img {
     aspect-ratio: 16 /9;
+    padding-top: 10px;
+    height: 60vh;
   }
   .event-container {
     width: 65%;
@@ -1217,18 +1248,18 @@ button {
   .offering-course-container {
     display: grid;
     grid-auto-flow: column;
-    grid-auto-columns: 50%;
+    grid-auto-columns: 45%;
   }
 
   .course-section {
-    padding: inherit 20px;
+    padding: 0 20px;
   }
   .navbar {
     position: none;
   }
   .links {
-    background-color: var(--dark-bg);
-    color: #fff;
+    background-color: var(--primary-background);
+    color: var(--primary-text-color);
     height: 100vh;
     position: absolute;
     right: 0;
@@ -1288,16 +1319,35 @@ button {
     gap: 1rem;
     overflow: hidden;
   }
+
+  :root {
+    --line-width: 20%;
+  }
 }
 @media (max-width: 620px) {
   .single-course-container {
     display: grid;
     grid-template-columns: 1fr;
-    grid-template-rows: 150px auto auto;
+    grid-template-rows: 170px auto auto;
     grid-template-areas:
       "courseThumbnail"
       "courseInfo"
       "relatedCourseContainer";
+    width: 100%;
+    gap: 1rem;
+    padding: 0px;
+  }
+  .related-course-container {
+    padding: 0 5px;
+  }
+  .single-course-info {
+    padding: 0 15px;
+  }
+  .single-course-title {
+    font-size: 1.5em;
+  }
+  .course-list-section {
+    padding: 20px 20px;
   }
   .footer-header {
     display: flex;
@@ -1317,14 +1367,16 @@ button {
   .offering-course-container {
     display: grid;
     grid-auto-flow: column;
-    grid-auto-columns: 50%;
+    grid-auto-columns: 65%;
   }
   .filter-container {
     display: flex;
     flex-direction: column;
     justify-content: start;
     align-items: start;
+    gap: 15px;
   }
+
   /* .filter-course .search-box,
   .filter-course input {
     flex: 1;
@@ -1448,5 +1500,8 @@ button {
   }
   .toggle-btn {
     color: #fff;
+  }
+  .navbar {
+    color: var(--light-primary-color);
   }
 }

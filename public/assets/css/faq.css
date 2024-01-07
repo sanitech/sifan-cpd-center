@@ -154,6 +154,9 @@
     padding-left: var(--dl-space-space-twounits);
     padding-right: var(--dl-space-space-twounits);
   }
+  .home-faq {
+    width: 100%;
+  }
   .home-desktop-menu {
     display: none;
   }

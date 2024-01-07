@@ -152,6 +152,8 @@ class CourseController extends BaseController
         $category = $this->request->getPost('category');
         $desc = $this->request->getPost('desc');
         $cr_hour = $this->request->getPost('cr_hour');
+        $inst = $this->request->getPost('inst');
+        $format = $this->request->getPost('format');
         $thumbnail = $this->request->getFile('thumbnail');
         $nameOfThumbnail = $this->request->getFile('thumbnail')->getName();
 
@@ -177,6 +179,8 @@ class CourseController extends BaseController
             'disc' => $desc,
             'cr_hr' => $cr_hour,
             'thumbnail' => $nameOfThumbnail,
+            'inst' => $inst,
+            'co-format' => $format
         ];
         var_dump($data);
 
@@ -248,6 +252,9 @@ class CourseController extends BaseController
         $category = $this->request->getPost('category');
         $desc = $this->request->getPost('desc');
         $cr_hour = $this->request->getPost('cr_hour');
+        $inst = $this->request->getPost('inst');
+        $format = $this->request->getPost('format');
+
         $thumbnail = $this->request->getFile('thumbnail');
         $nameOfThumbnail = $this->request->getFile('thumbnail')->getName();
 
@@ -259,6 +266,8 @@ class CourseController extends BaseController
                 'cat_id' => $category,
                 'disc' => $desc,
                 'cr_hr' => $cr_hour,
+                'inst' => $inst,
+                'co-format' => $format
             ];
         } else {
             $data = [
@@ -266,6 +275,8 @@ class CourseController extends BaseController
                 'cat_id' => $category,
                 'disc' => $desc,
                 'cr_hr' => $cr_hour,
+                'inst' => $inst,
+                'co-format' => $format,
                 'thumbnail' => $nameOfThumbnail,
             ];
             if (!is_dir($path['upload_path'])) {
