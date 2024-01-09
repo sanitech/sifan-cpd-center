@@ -17,26 +17,32 @@
             <div class="about-company-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. <br> Dolores nesciunt perferendis aut, quis sit fuga illum quam. Odit sit, <br> tenetur praesentium alias ducimus aperiam libero quis ipsam optio excepturi neque!</div>
         </div>
 
-        <div class="footer-links">
-            <div class="footer-links-header">Useful links</div>
-            <ul>
-                <li><a href="#home">Home</a></li>
-                <li><a href="#course">Course</a></li>
-                <li><a href="#event">Event</a></li>
-                <li><a href="#about">About us</a></li>
-                <li><a href="#contact">contact us</a></li>
-            </ul>
+
+
+        <div class="for-tab">
+
+            <div class="footer-links">
+                <div class="footer-links-header">Useful links</div>
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#course">Course</a></li>
+                    <li><a href="#event">Event</a></li>
+                    <li><a href="#about">About us</a></li>
+                    <li><a href="#contact">contact us</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-contact">
+                <div class="footer-contact-header">Contact</div>
+                <ul>
+                    <li><i class="bi bi-house-door"></i> Mojo around Debora Mercume Hotel</li>
+                    <li><i class="bi bi-envelope"></i> yetinayet.bg@gmail.com</li>
+                    <li><i class="bi bi-telephone"></i> +25191376492 </li>
+                    <li><i class="bi bi-telephone"></i> +25191376492 </li>
+                </ul>
+            </div>
         </div>
 
-        <div class="footer-contact">
-            <div class="footer-contact-header">Contact</div>
-            <ul>
-                <li><i class="bi bi-house-door"></i> Mojo around Debora Mercume Hotel</li>
-                <li><i class="bi bi-envelope"></i> yetinayet.bg@gmail.com</li>
-                <li><i class="bi bi-telephone"></i> +25191376492 </li>
-                <li><i class="bi bi-telephone"></i> +25191376492 </li>
-            </ul>
-        </div>
     </div>
     <div class="footer-dev-info">
         <a href="https://ix-portfolio.vercel.app/" target="_blank">

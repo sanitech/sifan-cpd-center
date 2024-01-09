@@ -45,7 +45,7 @@ include_once 'include/navbar.php';
 include_once 'courseFetch.php';
 ?>
 
-// <!-- main section end -->
+<!-- main section end -->
 
 
 

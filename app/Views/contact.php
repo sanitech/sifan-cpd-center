@@ -54,7 +54,7 @@ include_once 'include/navbar.php';
                         Email
                     </div>
                     <div class="contact-detail">
-                        etinayet.bg@gmail.com
+                        yetinayet.bg@gmail.com
                     </div>
                 </li>
                 <li>
@@ -65,7 +65,7 @@ include_once 'include/navbar.php';
                         phone
                     </div>
                     <div class="contact-detail">
-                        <span>+251-913-76492</span>
+                        <span>+251-913-76492</span> <br>
                         <span>+251-913-76492</span>
                     </div>
                 </li>

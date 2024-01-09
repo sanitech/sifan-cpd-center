@@ -517,6 +517,10 @@ footer {
   font-family: helvetica;
   /* margin-top: 3rem; */
 }
+.for-tab {
+  display: flex;
+  justify-content: space-between;
+}
 
 .footer-header {
   display: flex;
@@ -1241,9 +1245,6 @@ button {
   .con-container {
     width: 85%;
   }
-  /* .hero-text h1 {
-    font-size: 2em;
-  } */
 
   .offering-course-container {
     display: grid;
@@ -1325,6 +1326,9 @@ button {
   }
 }
 @media (max-width: 620px) {
+  .for-tab {
+    flex-direction: column;
+  }
   .single-course-container {
     display: grid;
     grid-template-columns: 1fr;
