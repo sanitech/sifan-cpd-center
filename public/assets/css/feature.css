@@ -57,11 +57,9 @@
   align-items: center;
   justify-content: center;
   padding: 30px 0;
-  /* background-color: var(--preview-color); */
+  background-color: var(--secondary-background-continue);
 }
-.back-back {
-  background-color: var(--preview-color);
-}
+
 .home-features-container {
   flex: 0 0 auto;
   width: 80%;
@@ -93,7 +91,7 @@
 }
 
 .home-text03 {
-  color: var(--primary-color);
+  color: var(--primary-text-color);
   font-family: "Raleway";
   /* margin-bottom: var(--dl-space-space-oneandhalfunits); */
   text-transform: uppercase;

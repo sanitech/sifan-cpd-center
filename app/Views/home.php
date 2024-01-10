@@ -217,6 +217,34 @@ hero-section-start -->
 
 
 
+<section class="detail-container">
+    <div class="home-details">
+        <div class="home-details1">
+            <div class="home-container02">
+                <span class="home-text sectionTitle">
+                    <span>Details</span>
+                    <br />
+                </span>
+                <h2 class="home-details-heading heading2">
+                    Why Choose i working CPD Center?
+                </h2>
+                <span class="home-details-sub-heading">
+                    i working CPD Center is dedicated to providing high-quality
+                    professional development courses that are designed to meet the needs
+                    of working professionals. With a team of experienced instructors and
+                    a comprehensive curriculum, we offer courses in various fields to
+                    help you stay ahead in your industry. Join us today and take the
+                    next step towards achieving your career goals.
+                </span>
+            </div>
+            <img alt="image" src="https://images.unsplash.com/photo-1467318339494-a32c2ada54d4?crop=entropy&amp;cs=tinysrgb&amp;fit=max&amp;fm=jpg&amp;ixid=M3w5MTMyMXwwfDF8cmFuZG9tfHx8fHx8fHx8MTcwNDA4NDcxOXw&amp;ixlib=rb-4.0.3&amp;q=80&amp;w=400" class="home-details-image" />
+        </div>
+    </div>
+</section>
+
+
+
+
 
 <section class="about-cont" id="about">
 
@@ -281,33 +309,16 @@ hero-section-start -->
     </div>
 </section>
 
-<section class="detail-container">
-    <div class="home-details">
-        <div class="home-details1">
-            <div class="home-container02">
-                <span class="home-text sectionTitle">
-                    <span>Details</span>
-                    <br />
-                </span>
-                <h2 class="home-details-heading heading2">
-                    Why Choose i working CPD Center?
-                </h2>
-                <span class="home-details-sub-heading">
-                    i working CPD Center is dedicated to providing high-quality
-                    professional development courses that are designed to meet the needs
-                    of working professionals. With a team of experienced instructors and
-                    a comprehensive curriculum, we offer courses in various fields to
-                    help you stay ahead in your industry. Join us today and take the
-                    next step towards achieving your career goals.
-                </span>
-            </div>
-            <img alt="image" src="https://images.unsplash.com/photo-1467318339494-a32c2ada54d4?crop=entropy&amp;cs=tinysrgb&amp;fit=max&amp;fm=jpg&amp;ixid=M3w5MTMyMXwwfDF8cmFuZG9tfHx8fHx8fHx8MTcwNDA4NDcxOXw&amp;ixlib=rb-4.0.3&amp;q=80&amp;w=400" class="home-details-image" />
-        </div>
-    </div>
-</section>
 
 
-<section class="future">
+<?php
+include 'include/services.php';
+
+?>
+
+
+
+<!-- <section class="future">
     <div class="home-features">
         <div class="home-features-container">
             <div class="home-features1">
@@ -386,7 +397,7 @@ hero-section-start -->
             </div>
         </div>
     </div>
-</section>
+</section> -->
 
 
 
