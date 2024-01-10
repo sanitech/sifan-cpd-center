@@ -16,7 +16,7 @@ class Home extends BaseController
         $courseCategoryModel = new CourseCategoryModel();
         $courseModel = new CourseModel();
 
-        $data['category'] = $courseCategoryModel->where('status', true)->findAll();
+        $data['category'] = $courseCategoryModel->where('status', true)->limit(1)->findAll();
         $data['course'] = $courseModel->findAll();
         $data['event'] = $eventModel->findAll();
         $data['team'] = $teamModel->findAll();
