@@ -26,7 +26,7 @@
   --first-line: 50%;
   --second-line: 80%;
   --preview-color: #342989;
-  --line-color: #ffffff;
+  --line-color: #000000;
   --line-color-dark: #ffffff;
   --star-color: rgb(255, 149, 0);
   --light-primary-color: #fff;
@@ -186,7 +186,7 @@ a {
 .flexible-course-section,
 .course-section {
   padding: 0 40px;
-  /* background-color: var(--preview-color); */
+  background-color: #fcfdfe;
   /* box-shadow: 0px 0px 15px -2px black; */
 }
 .header-text h1 {
@@ -469,7 +469,7 @@ a {
 }
 section {
   /* height: 100vh; */
-  /* min-height: 100vh; */
+  height: fit-content;
 }
 
 .event-container {
@@ -903,7 +903,7 @@ button {
 .hero-images-section {
   width: 100%;
   /* height: ; */
-  background-color: var(--preview-color);
+  /* background-color: var(--preview-color);   */
   padding: 0;
   overflow: hidden;
   grid-area: aboutImg;
@@ -911,15 +911,16 @@ button {
 .project-container {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  background-color: var(--card--color);
 }
 .project-card {
   display: flex;
   flex-direction: column;
-  background-color: var(--preview-color);
+  background-color: var(--card--color);
   margin: 10px;
   padding: 10px;
   border-radius: 10px;
-  box-shadow: 0px 0px 5px rgba(34, 34, 34, 0.141);
+  box-shadow: 0px 0px 10px rgba(197, 197, 197, 0.295);
 }
 .project-card .point {
   font-size: 1.8em;

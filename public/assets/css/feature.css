@@ -57,8 +57,7 @@
   align-items: center;
   justify-content: center;
   padding: 30px 0;
-  background-color: var(--preview-color);
-  box-shadow: 0px 0px 15px -2px black;
+  /* background-color: var(--preview-color); */
 }
 .back-back {
   background-color: var(--preview-color);

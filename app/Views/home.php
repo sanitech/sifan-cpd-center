@@ -401,7 +401,7 @@ hero-section-start -->
 if (!empty($team)) : ?>
 
     <!-- component -->
-    <div class="py-20 bg-blue-950 dark:bg-gray-800 dark:text-gray-100">
+    <div class="py-20  dark:bg-gray-800 dark:text-gray-100">
         <div class="container mx-auto px-6 md:px-12 xl:px-32">
             <div class="mb-16 text-center">
 
