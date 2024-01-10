@@ -11,7 +11,7 @@
     </div>
 
 
-    <div class="footer-body">
+    <div class="footer-body linear-bg">
         <div class="about-company">
             <div class="logo">Logo</div>
             <div class="about-company-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. <br> Dolores nesciunt perferendis aut, quis sit fuga illum quam. Odit sit, <br> tenetur praesentium alias ducimus aperiam libero quis ipsam optio excepturi neque!</div>
@@ -44,7 +44,7 @@
         </div>
 
     </div>
-    <div class="footer-dev-info">
+    <div class="footer-dev-info after-linear">
         <a href="https://ix-portfolio.vercel.app/" target="_blank">
             <p>Developed by <span> IX IT and Marketing Solution</span></p>
         </a>

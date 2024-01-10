@@ -47,7 +47,9 @@ hero-section-start -->
     }
 </script>
 
-<section class="dark:bg-gray-800 dark:text-gray-100">
+
+<!-- hero-section start -->
+<section class="dark:bg-gray-800 dark:text-gray-100 linear-bg">
     <div class="container flex flex-col justify-center p-6 mx-auto sm:py-12 lg:py-24 lg:flex-row lg:justify-between">
         <div class="flex flex-col justify-center p-6 text-center rounded-sm lg:max-w-md xl:max-w-lg lg:text-left">
             <h1 class="text-5xl font-bold leadi sm:text-6xl">
@@ -67,8 +69,10 @@ hero-section-start -->
         </div>
     </div>
 </section>
+<!-- hero-section end -->
 
 
+<!-- course-section start -->
 <section class="course-section" id="course">
 
     <div class="header-section">
@@ -114,6 +118,8 @@ hero-section-start -->
 
     </div>
 </section>
+<!-- course-section end -->
+
 <!-- 
 <section class="flexible-course-section">
 
@@ -217,6 +223,7 @@ hero-section-start -->
 
 
 
+<!-- details-section start -->
 <section class="detail-container">
     <div class="home-details">
         <div class="home-details1">
@@ -241,11 +248,12 @@ hero-section-start -->
         </div>
     </div>
 </section>
+<!-- details-section end -->
 
 
 
 
-
+<!-- about-section start -->
 <section class="about-cont" id="about">
 
     <div class="header-section">
@@ -308,13 +316,17 @@ hero-section-start -->
 
     </div>
 </section>
+<!-- about-section end -->
 
 
 
+<!-- service-section start -->
 <?php
 include 'include/services.php';
 
 ?>
+<!-- service-section end -->
+
 
 
 
@@ -411,8 +423,8 @@ include 'include/services.php';
 
 if (!empty($team)) : ?>
 
-    <!-- component -->
-    <div class="py-20  dark:bg-gray-800 dark:text-gray-100">
+    <!-- team section start -->
+    <div class="py-10dark:bg-gray-800 dark:text-gray-100 after-linear">
         <div class="container mx-auto px-6 md:px-12 xl:px-32">
             <div class="mb-16 text-center">
 
@@ -444,6 +456,17 @@ if (!empty($team)) : ?>
             </div>
         </div>
     </div>
+    <!-- team section end -->
+
+
+
+
+
+
+
+
+
+    <!-- event section start -->
 
 <?php
 endif;
@@ -451,7 +474,7 @@ endif;
 
 
 if (!empty($event)) : ?>
-    <section class="flexible-course-section">
+    <section class="event-section after-linear">
 
         <div class="header-section" id="event">
             <div class="header-text">
@@ -505,13 +528,15 @@ if (!empty($event)) : ?>
 
         </div>
     </section>
-
 <?php
 endif;
 ?>
 
+<!-- event section end -->
 
-<section class="bg-white dark:bg-gray-900">
+
+
+<section class="bg-white dark:bg-gray-900 linear-bg">
     <div class="container px-6 py-12 mx-auto">
         <div class="lg:flex lg:items-center lg:-mx-6">
             <div class="lg:w-1/2 lg:mx-6">
@@ -612,11 +637,12 @@ endif;
 </section>
 
 
-
+<!-- faq-section start -->
 <?php
 include_once 'include/faq.php';
-
 ?>
+<!-- faq-section end -->
+
 
 <!-- footer start -->
 <?php

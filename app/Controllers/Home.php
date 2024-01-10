@@ -15,7 +15,7 @@ class Home extends BaseController
         $teamModel = new TeamModel();
         $courseCategoryModel = new CourseCategoryModel();
         $courseModel = new CourseModel();
-
+        $data['title'] = 'Home - sefan cpd center';
         $data['category'] = $courseCategoryModel->where('status', true)->limit(1)->findAll();
         $data['course'] = $courseModel->findAll();
         $data['event'] = $eventModel->findAll();

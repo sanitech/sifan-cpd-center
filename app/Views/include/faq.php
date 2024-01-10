@@ -1,4 +1,4 @@
-<section class="faq-container">
+<section class="faq-container after-linear">
     <div class="home-faq">
         <div class="home-faq-container">
             <div class="home-faq1">

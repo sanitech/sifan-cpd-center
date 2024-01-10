@@ -1,4 +1,4 @@
-<section class="pt-20 lg:pt-[120px] pb-12 lg:pb-[90px]">
+<section class="pt-20 lg:pt-[120px] pb-12 lg:pb-[90px] linear-bg">
     <div class="container">
         <div class="flex flex-wrap -mx-4">
             <div class="w-full px-4">
@@ -17,8 +17,8 @@
                         What We Offer
                     </h2>
                     <p class="text-base text-body-color">
-                        There are many variations of passages of Lorem Ipsum available
-                        but the majority have suffered alteration in some form.
+                        Discover the key features that make our CPD Center the perfect
+                        place for your professional development.
                     </p>
                 </div>
             </div>
@@ -128,6 +128,5 @@
                     </p>
                 </div>
             </div>
-
         </div>
 </section>

@@ -11,7 +11,7 @@ class Course extends BaseController
     {
         $courseCategoryModel = new CourseCategoryModel();
         $courseModel = new CourseModel();
-
+        $data['title'] = 'course';
         $data['category'] = $courseCategoryModel->orderBy('date', 'desc')->findAll();
         $data['course'] = $courseModel->orderBy('date', 'desc')->findAll();
         return view('course', $data);
@@ -26,6 +26,7 @@ class Course extends BaseController
 
         return view('courseCategory', $data);
     }
+
 
 
     public function courseBySingle($id = false)

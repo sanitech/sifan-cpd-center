@@ -18,7 +18,7 @@
   --secondary-background: #e6ecf4;
   --secondary-background-continue: #fcfdfe;
   --primary-text-color: #000000;
-  --secondary-text-color: #617293;
+  --secondary-text-color: #64666b;
 
   --primary-background-dark: #040404;
   --dark-bg: #181818;
@@ -65,7 +65,12 @@ body {
   background: var(--primary-background);
   color: var(--primary-text-color);
   font-family: helvetica;
-  height: 100vh;
+}
+.linear-bg {
+  background: var(--primary-background);
+}
+.after-linear {
+  background-color: var(--secondary-background-continue);
 }
 ul {
   list-style: none;
@@ -125,6 +130,7 @@ a {
 }
 
 /* hero */
+
 .heros {
   padding: 15px 40px;
   height: 85vh;
@@ -184,8 +190,9 @@ a {
   /* object-fit: cover; */
   aspect-ratio: 16/9;
 }
-
-.flexible-course-section,
+.team-section {
+  background-color: var(--secondary-background-continue);
+}
 .course-section {
   padding: 20px 40px;
   background-color: var(--secondary-background-continue);
@@ -468,21 +475,21 @@ a {
 .msg {
   height: 150px;
 }
-section {
-  /* height: 100vh; */
-  height: fit-content;
+
+.event-section {
+  padding: 100px auto;
 }
 
 .event-container {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  width: 60%;
+  width: 45%;
   margin: 30px auto;
 }
 
 .event-card {
-  background-color: var(--preview-color);
+  background-color: var(--secondary-background);
   display: flex;
   border-radius: 10px;
   overflow: hidden;
@@ -521,9 +528,7 @@ section {
   color: var(--secondary-text-color);
 }
 footer {
-  background-color: var(--preview-color);
   font-family: helvetica;
-  /* margin-top: 3rem; */
 }
 .for-tab {
   display: flex;
@@ -536,7 +541,7 @@ footer {
   align-items: center;
   padding: 15px 40px;
   color: var(--primary-text-color);
-  background-color: var(--primary-color);
+  background: var(--primary-color);
 }
 
 .footer-header-social-media i {
@@ -885,7 +890,9 @@ button {
 .about-us-hero-container {
   padding: 10px 20px;
   border-radius: 10px;
-  box-shadow: 0px 0px 10px rgba(238, 238, 238, 0.295);
+  box-shadow: inset 0px 1px 1px 0px rgba(255, 255, 255, 0.1),
+    0px 50px 100px -20px rgba(50, 50, 93, 0.25),
+    0px 30px 60px -30px rgba(0, 0, 0, 0.3);
 }
 .about-us-hero-container {
   background-color: var(--light-primary-color);
