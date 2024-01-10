@@ -1,5 +1,7 @@
 <nav class="navbar">
-    <div class="logo"><a href="/">Logo</a></div>
+    <div class="logo"><a href="/">
+            <img src="assets/images/logo.png" alt="logo">
+        </a></div>
     <div class="links" id="menuContainer">
         <ul>
             <li><a href="/">Home</a></li>

@@ -282,7 +282,6 @@ hero-section-start -->
 </section>
 
 <section class="detail-container">
-
     <div class="home-details">
         <div class="home-details1">
             <div class="home-container02">

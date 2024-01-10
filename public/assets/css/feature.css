@@ -1,5 +1,6 @@
 :root {
   --icon-background: #000000;
+  --feature-card-color: #fff;
 }
 .feature-card-feature-card {
   width: 100%;
@@ -12,7 +13,7 @@
     "ficon futerText"
     "ficon futureDesc";
   border-radius: var(--dl-radius-radius-radius8);
-  background-color: var(--preview-color);
+  background-color: var(--feature-card-color);
 }
 .feature-card-icon {
   fill: var(--dl-color-primary1-blue80);
