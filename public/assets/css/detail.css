@@ -37,7 +37,6 @@
   margin-bottom: var(--dl-space-space-oneandhalfunits);
 }
 .home-details-heading {
-  width: 80%;
   text-align: left;
   font-family: "Raleway";
   line-height: 1.6;
@@ -51,19 +50,18 @@
   margin-bottom: var(--dl-space-space-twounits);
 }
 .home-details-image {
-  width: 400px;
-  height: 400px;
+  width: 350px;
+  height: 350px;
   object-fit: cover;
   margin-left: var(--dl-space-space-fourunits);
   border-radius: var(--dl-radius-radius-round);
 }
-@media (max-width: 800px) {
+@media (max-width: 820px) {
   .home-details1 {
-    flex-direction: column;
-  }
-  .home-details-image {
-    width: 250px;
-    height: 250px;
+    display: flex;
+    /* flex-direction: column; */
+    width: 90%;
+    margin: auto;
   }
 }
 

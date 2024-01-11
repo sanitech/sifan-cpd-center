@@ -14,7 +14,7 @@
   /* --primary-background: #6d6d72; */
   /* --primary-background: #d1e7dd; */
   /* --primary-background: #e8d0e0; */
-  --primary-background: linear-gradient(to bottom, #dce5ef, #ffffff);
+  --primary-background: linear-gradient(to bottom, #dce5ef, #e5f2f7, #ffffff);
   --secondary-background: #e6ecf4;
   --secondary-background-continue: #fcfdfe;
   --primary-text-color: #000000;
@@ -34,6 +34,13 @@
   --light-primary-color: #fff;
   --card--color: #fff;
   --line-width: 13%;
+  --linear-webkit: -webkit-linear-gradient(
+    to bottom,
+    #dce5ef,
+    #e5f2f7,
+    #ffffff
+  );
+  --linear-moz: -moz-linear-gradient(to bottom, #dce5ef, #e5f2f7, #ffffff);
 }
 
 @font-face {
@@ -62,11 +69,13 @@
 }
 
 body {
-  background: var(--primary-background);
+  background-color: var(--secondary-background);
   color: var(--primary-text-color);
   font-family: helvetica;
 }
 .linear-bg {
+  background: var(--linear-webkit);
+  background: var(--linear-moz);
   background: var(--primary-background);
 }
 .after-linear {
@@ -85,7 +94,7 @@ a {
   display: flex;
   justify-content: end;
   padding: 10px 40px;
-  background-color: #dce5ef;
+  background-color: var(--secondary-background);
 }
 .seo-info ul {
   display: flex;
@@ -541,7 +550,7 @@ footer {
   align-items: center;
   padding: 15px 40px;
   color: var(--primary-text-color);
-  background: var(--primary-color);
+  background-color: var(--secondary-background);
 }
 
 .footer-header-social-media i {
@@ -552,6 +561,7 @@ footer {
   justify-content: space-between;
   gap: 1rem;
   padding: 40px;
+  background-color: var(--secondary-background);
 }
 .footer-links-header,
 .footer-contact-header {
@@ -1146,12 +1156,7 @@ button {
   .call-us-btn {
     font-size: 1em;
   }
-  .about-header {
-    display: flex;
-    justify-content: center;
-    align-content: center;
-    background-color: var(--preview-color);
-  }
+
   .about-hero-container {
     width: 90%;
     margin: 30px auto;
@@ -1323,14 +1328,21 @@ button {
   .about-hero-container {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    grid-template-rows: 350px 400px;
+    grid-template-rows: auto auto;
     grid-template-areas:
       "aboutImg aboutImg"
       "aboutUs aboutProject";
     width: 90%;
     margin: 30px auto;
-    gap: 1rem;
+    gap: 0;
     overflow: hidden;
+  }
+  .project-container {
+    box-shadow: none;
+  }
+  .hero-images-section {
+    box-shadow: none;
+    background-color: var(--secondary-background-continue);
   }
 
   :root {
