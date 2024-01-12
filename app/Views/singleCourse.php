@@ -5,14 +5,28 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="../assets/css/style.css">
     <link rel="stylesheet" href="../assets/css/faq.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.2/font/bootstrap-icons.css" integrity="sha384-b6lVK+yci+bfDmaY1u0zE8YYJt0TZxLEAFyYSLHId4xoVvsrQu3INevFKo+Xir8e" crossorigin="anonymous" />
     <script src="../assets/js/app.js" defer></script>
+    <link rel="stylesheet" href="https://cdn.tailgrids.com/tailgrids-fallback.css" />
 
 </head>
 
 <body>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        clifford: '#da373d',
+                    }
+                }
+            }
+        }
+    </script>
+    <link rel="stylesheet" href="../assets/css/style.css">
+
 
     <!-- seo-info start -->
     <?php
@@ -56,7 +70,9 @@
                 </div>
 
 
-                <a href="<?php echo base_url('/contact') ?>"> <button class="btn-take">Enroll Now</button></a>
+                <a href="<?php echo base_url('/contact') ?>"> <button class="px-6 py-2 font-medium tracking-wide text-white capitalize transition-colors duration-300 transform bg-dark rounded-lg hover:opacity-0.9 focus:outline-none focus:ring focus:ring-blue-300 focus:ring-opacity-80">
+                        Enroll Now
+                    </button></a>
             </div>
             <div class="related-course-container">
                 <div class="related-course-header-text">Related Course</div>

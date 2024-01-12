@@ -34,22 +34,10 @@ include_once 'include/navbar.php';
 </header>
 hero-section-start -->
 
-<script src="https://cdn.tailwindcss.com"></script>
-<script>
-    tailwind.config = {
-        theme: {
-            extend: {
-                colors: {
-                    clifford: '#da373d',
-                }
-            }
-        }
-    }
-</script>
 
 
 <!-- hero-section start -->
-<section class="dark:bg-gray-800 dark:text-gray-100 linear-bg">
+<section class="dark:bg-gray-800 dark:text-gray-100 linear-bg" id="hero">
     <div class="container flex flex-col justify-center p-6 mx-auto sm:py-12 lg:py-24 lg:flex-row lg:justify-between">
         <div class="flex flex-col justify-center p-6 text-center rounded-sm lg:max-w-md xl:max-w-lg lg:text-left">
             <h1 class="text-5xl font-bold leadi sm:text-6xl">
@@ -60,7 +48,7 @@ hero-section-start -->
                 <!-- <br class="hidden md:inline lg:hidden">turpis pulvinar, est scelerisque ligula sem -->
             </p>
             <div class="flex flex-col space-y-4 sm:items-center sm:justify-center sm:flex-row sm:space-y-0 sm:space-x-4 lg:justify-start">
-                <button class="px-6 py-2 font-medium tracking-wide text-white capitalize transition-colors duration-300 transform bg-dark rounded-lg hover:opacity-0.9 focus:outline-none focus:ring focus:ring-blue-300 focus:ring-opacity-80">
+                <button class="px-6 py-2 font-medium tracking-wide text-white capitalize transition-colors duration-300 transform bg-dark dark:bg-violet-900 rounded-lg hover:opacity-0.9 focus:outline-none focus:ring focus:ring-blue-300 focus:ring-opacity-80">
                     Explore our courses
                 </button>
             </div>
@@ -73,8 +61,9 @@ hero-section-start -->
 <!-- hero-section end -->
 
 
+
 <!-- course-section start -->
-<section class="course-section" id="course">
+<section class="course-section" id="category">
 
     <div class="header-section">
         <div class="header-text">
@@ -103,7 +92,7 @@ hero-section-start -->
             <a href="<?php echo base_url("category/$id") ?>" class="top-course-category">
                 <img src="<?php echo base_url('/uploads') . '/' . $category['thumbnail'] ?>" alt="" class="category-thu" />
                 <div class="top-course-text-container">
-                    <div class="top-course-title leadi"><?php echo $categoryTitle ?></div>
+                    <div class="top-course-title"><?php echo $categoryTitle ?></div>
                     <div class="top-course-description">
                     </div>
                 </div>
@@ -225,7 +214,7 @@ hero-section-start -->
 
 
 <!-- details-section start -->
-<section class="detail-container">
+<section class="detail-container" id="details">
     <div class="home-details">
         <div class="home-details1">
             <div class="home-container02">
@@ -255,7 +244,7 @@ hero-section-start -->
 
 
 <!-- about-section start -->
-<section class="about-cont" id="about">
+<section class="about-cont" id="abouts">
 
     <div class="header-section">
         <div class="header-text">
@@ -273,7 +262,7 @@ hero-section-start -->
     </div>
     <div class="about-header">
 
-        <div class="about-hero-container">
+        <section class="about-hero-container" id="aboutCard">
             <div class="about-us-hero-container">
                 <h3>How it Started</h3>
                 <h1 class="about-hero-motto">
@@ -312,7 +301,7 @@ hero-section-start -->
                 </div>
             </div>
             <!-- </div> -->
-        </div>
+        </section>
 
     </div>
 </section>
@@ -424,19 +413,19 @@ include 'include/services.php';
 if (!empty($team)) : ?>
 
     <!-- team section start -->
-    <div class="py-10dark:bg-gray-800 dark:text-gray-100 after-linear">
+    <section class="py-10 after-linear" id="teams">
         <div class="container mx-auto px-6 md:px-12 xl:px-32">
             <div class="mb-16 text-center">
 
-                <h2 class="mb-4 text-center text-2xl text-gray-900 font-bold md:text-4xl">Teams</h2>
-                <p class="text-gray-600 lg:w-8/12 lg:mx-auto">Your Success is Our Priority.</p>
+                <h2 class="mb-4 text-center text-2xl text-gray-900 font-bold md:text-4xl dark:text-white">Teams</h2>
+                <p class="text-gray-600 lg:w-8/12 lg:mx-auto dark:text-white">Your Success is Our Priority.</p>
             </div>
-            <div class="grid gap-12 items-center md:grid-cols-3">
+            <div class="grid gap-12 items-center md:grid-cols-3 ">
                 <div class="space-y-4 text-center">
-                    <img class="w-64 h-64 mx-auto object-cover rounded-xl md:w-40 md:h-40 lg:w-64 lg:h-64" src="https://tailus.io/sources/blocks/classic/preview/images/woman1.jpg" alt="woman" loading="lazy" width="640" height="805">
+                    <img class="w-64 h-64 mx-auto object-cover rounded-xl md:w-40 md:h-40 lg:w-64 lg:h-64" src="assets/images/team1.png" alt="woman" loading="lazy" width="640" height="805">
                     <div>
-                        <h4 class="text-2xl">Hentoni Doe</h4>
-                        <span class="block text-sm text-gray-500">CEO-Founder</span>
+                        <h4 class="text-2xl">Dr Rahel Mekonon</h4>
+                        <span class="block text-sm text-gray-500 dark:text-white">Instructor</span>
                     </div>
                 </div>
                 <div class="space-y-4 text-center">
@@ -447,15 +436,15 @@ if (!empty($team)) : ?>
                     </div>
                 </div>
                 <div class="space-y-4 text-center">
-                    <img class="w-64 h-64 mx-auto object-cover rounded-xl md:w-40 md:h-40 lg:w-64 lg:h-64" src="https://tailus.io/sources/blocks/classic/preview/images/woman.jpg" alt="woman" loading="lazy" width="1000" height="667">
+                    <img class="w-64 h-64 mx-auto object-cover rounded-xl md:w-40 md:h-40 lg:w-64 lg:h-64" src="assets/images/team2.png" alt="woman" loading="lazy" width="1000" height="667">
                     <div>
-                        <h4 class="text-2xl">Anabelle Doe</h4>
+                        <h4 class="text-2xl">Dr Hiwet W/maryame</h4>
                         <span class="block text-sm text-gray-500">Chief Operations Officer</span>
                     </div>
                 </div>
             </div>
         </div>
-    </div>
+    </section>
     <!-- team section end -->
 
 
@@ -467,14 +456,10 @@ if (!empty($team)) : ?>
 
 
     <!-- event section start -->
-
 <?php
 endif;
-
-
-
 if (!empty($event)) : ?>
-    <section class="event-section after-linear">
+    <section class="event-section after-linear" id="events">
 
         <div class="header-section" id="event">
             <div class="header-text">
@@ -531,12 +516,12 @@ if (!empty($event)) : ?>
 <?php
 endif;
 ?>
-
 <!-- event section end -->
 
 
 
-<section class="bg-white dark:bg-gray-900 linear-bg">
+<!-- contact section start -->
+<section class="bg-white dark:bg-gray-900 linear-bg" id="contact">
     <div class="container px-6 py-12 mx-auto">
         <div class="lg:flex lg:items-center lg:-mx-6">
             <div class="lg:w-1/2 lg:mx-6">
@@ -546,7 +531,7 @@ endif;
 
                 <div class="mt-6 space-y-8 md:mt-8">
                     <p class="flex items-start -mx-2">
-                        <svg xmlns="http://www.w3.org/2000/svg" class="w-6 h-6 mx-2 text-blue-500 dark:text-blue-400" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="w-6 h-6 mx-2 text-gary-500 dark:text-violet-500" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
                             <path stroke-linecap="round" stroke-linejoin="round" d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z" />
                             <path stroke-linecap="round" stroke-linejoin="round" d="M15 11a3 3 0 11-6 0 3 3 0 016 0z" />
                         </svg>
@@ -557,7 +542,7 @@ endif;
                     </p>
 
                     <p class="flex items-start -mx-2">
-                        <svg xmlns="http://www.w3.org/2000/svg" class="w-6 h-6 mx-2 text-blue-500 dark:text-blue-400" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="w-6 h-6 mx-2 text-gray-500 dark:text-violet-500" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
                             <path stroke-linecap="round" stroke-linejoin="round" d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z" />
                         </svg>
 
@@ -565,7 +550,7 @@ endif;
                     </p>
 
                     <p class="flex items-start -mx-2">
-                        <svg xmlns="http://www.w3.org/2000/svg" class="w-6 h-6 mx-2 text-blue-500 dark:text-blue-400" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="w-6 h-6 mx-2 text-gray-500 dark:text-violet-500" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
                             <path stroke-linecap="round" stroke-linejoin="round" d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
                         </svg>
 
@@ -608,9 +593,9 @@ endif;
 
             <div class="mt-8 lg:w-1/2 lg:mx-6">
                 <div class="w-full px-8 py-10 mx-auto overflow-hidden bg-white rounded-lg shadow-2xl dark:bg-gray-900 lg:max-w-xl shadow-gray-300/50 dark:shadow-black/50">
-                    <h1 class="text-lg font-medium text-gray-700">What do you want to ask</h1>
+                    <h1 class="text-lg font-medium text-gray-700 dark:text-white">What do you want to ask</h1>
 
-                    <form class="mt-6">
+                    <form class="mt-6 ">
                         <div class="flex-1">
                             <label class="block mb-2 text-sm text-gray-600 dark:text-gray-200">Full Name</label>
                             <input type="text" placeholder=" name" class="block w-full px-5 py-3 mt-2 text-gray-700 placeholder-gray-400 bg-white border border-gray-200 rounded-md dark:placeholder-gray-600 dark:bg-gray-900 dark:text-gray-300 dark:border-gray-700 focus:border-blue-400 dark:focus:border-blue-400 focus:ring-blue-400 focus:outline-none focus:ring focus:ring-opacity-40" />
@@ -626,7 +611,7 @@ endif;
                             <textarea class="block w-full h-32 px-5 py-3 mt-2 text-gray-700 placeholder-gray-400 bg-white border border-gray-200 rounded-md md:h-48 dark:placeholder-gray-600 dark:bg-gray-900 dark:text-gray-300 dark:border-gray-700 focus:border-blue-400 dark:focus:border-blue-400 focus:ring-blue-400 focus:outline-none focus:ring focus:ring-opacity-40" placeholder="Message"></textarea>
                         </div>
 
-                        <button class="w-full px-6 py-3 mt-6 text-sm font-medium tracking-wide text-white capitalize transition-colors duration-300 transform bg-blue-500 rounded-md hover:bg-blue-400 focus:outline-none focus:ring focus:ring-blue-300 focus:ring-opacity-50">
+                        <button class="w-full px-6 py-3 mt-6 text-sm font-medium tracking-wide text-white capitalize transition-colors duration-300 transform bg-blue-500 dark:bg-violet-500 rounded-md hover:bg-blue-400 focus:outline-none focus:ring focus:ring-blue-300 focus:ring-opacity-50">
                             get in touch
                         </button>
                     </form>
@@ -635,6 +620,7 @@ endif;
         </div>
     </div>
 </section>
+<!-- contact section end -->
 
 
 <!-- faq-section start -->

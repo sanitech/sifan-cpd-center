@@ -71,3 +71,9 @@
     height: 250px;
   }
 }
+
+@media (prefers-color-scheme: dark) {
+  .home-details {
+    background: rgb(31 41 55);
+  }
+}

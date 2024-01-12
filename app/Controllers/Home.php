@@ -30,10 +30,12 @@ class Home extends BaseController
     }
     public function contact()
     {
-        return view('contact');
+        $data['title'] = "Contact";
+        return view('contact', $data);
     }
     public function maintenance()
     {
+
         return view('error_maintenance');
     }
 

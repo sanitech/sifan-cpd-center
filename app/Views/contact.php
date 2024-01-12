@@ -138,6 +138,11 @@ include_once 'include/navbar.php';
 
 <!-- main section end -->
 
+<!-- faq-section start -->
+<?php
+include_once 'include/faq.php';
+?>
+<!-- faq-section end -->
 
 
 <!-- footer start -->

@@ -1,4 +1,4 @@
-<section class="course-list-section">
+<section class="course-list-section after-linear">
 
     <h3>Course</h3>
 

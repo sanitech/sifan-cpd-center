@@ -44,7 +44,7 @@
 }
 
 @font-face {
-  font-family: "helvetica";
+  font-family: sans-serif;
   src: url(../fonts/Helvetica.ttf);
 }
 @font-face {
@@ -67,7 +67,10 @@
   font-family: "futuraMedium";
   src: url(../fonts/futura\ medium\ bt.ttf);
 }
-
+@font-face {
+  font-family: "inter";
+  src: url(../fonts/Inter-Medium.ttf);
+}
 body {
   background-color: var(--secondary-background);
   color: var(--primary-text-color);
@@ -291,7 +294,7 @@ a {
 .top-course-category {
   background-color: var(--preview-color);
   color: var(--primary-text-color);
-  border-radius: 0.3em;
+  border-radius: 18px;
   box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
   transition: all 0.4s ease-in-out;
   width: 100%;
@@ -324,7 +327,7 @@ a {
 }
 .team-member-container,
 .top-course-text-container {
-  font-family: poppins;
+  /* font-family: poppins; */
 }
 .teams-members-category img {
   aspect-ratio: 16 /9;
@@ -335,10 +338,8 @@ a {
 
 .offering-course-title,
 .top-course-title {
-  white-space: nowrap;
-  font-family: helvetica;
-  font-size: 1.1rem;
-  font-weight: bold;
+  font-family: inter;
+  text-align: center;
 }
 
 .team-member-name {
@@ -348,7 +349,6 @@ a {
   text-transform: uppercase !important;
 }
 .top-course-description {
-  /* color: var(--secondary-text-color); */
   margin-top: 5px;
 }
 
@@ -486,15 +486,14 @@ a {
 }
 
 .event-section {
-  padding: 100px auto;
+  padding: 40px 0;
 }
-
 .event-container {
   display: flex;
   flex-direction: column;
   justify-content: center;
   width: 45%;
-  margin: 30px auto;
+  margin: 0px auto;
 }
 
 .event-card {
@@ -595,7 +594,6 @@ footer {
 }
 
 .content-header {
-  background-color: var(--preview-color);
   min-height: 85vh;
   display: flex;
   justify-content: center;
@@ -623,7 +621,6 @@ footer {
   left: 0;
   right: 0;
   bottom: 0;
-  background-color: var(--preview-color);
   z-index: -1;
 }
 
@@ -747,7 +744,7 @@ footer {
 
 .single-course-header {
   height: 90vh;
-  background-color: var(--preview-color);
+  background: var(--primary-background);
 }
 .single-course-container {
   display: grid;
@@ -901,17 +898,18 @@ button {
   padding: 10px 20px;
   border-radius: 10px;
   box-shadow: inset 0px 1px 1px 0px rgba(255, 255, 255, 0.1),
-    0px 50px 100px -20px rgba(50, 50, 93, 0.25),
-    0px 30px 60px -30px rgba(0, 0, 0, 0.3);
+    0px 0px 10px -20px rgba(50, 50, 93, 0.25),
+    0px 0px 60px -30px rgba(0, 0, 0, 0.3);
 }
 .about-us-hero-container {
   background-color: var(--light-primary-color);
 }
 .about-hero-motto {
   font-size: 4em;
+  line-height: 1.2;
   font-family: helvetica-bold;
   margin: 20px 0;
-  color: #000 !important;
+  color: #000;
 }
 .hero-images-section {
   width: 100%;
@@ -1485,27 +1483,41 @@ button {
     grid-auto-columns: 100%;
   }
 }
+
+.navbar.scrolled {
+  background-color: var(--secondary-background-continue);
+}
+
 @media (prefers-color-scheme: dark) {
   :root {
-    --preview-color: #535353;
-    --secondary-text-color: rgb(219, 219, 219);
+    --preview-color: #1f2a37;
     --primary-text-color: #000;
-    --card--color-dark: #252525;
+    --card--color-dark: #1f2a37;
     --icon-background: #fff;
     --secondary-text-color-faq-sub: rgb(200, 200, 200);
+    --primary-background: linear-gradient(to bottom, #101728, #09090b);
+    --secondary-background: #101728;
+    --secondary-background-continue: #09090b;
+    --primary-text-color: #000000;
+    --secondary-text-color: #cbcbcb;
+    --box-gradient: linear-gradient(to bottom, #bc8afe51, rgba(0, 0, 0, 0.293));
   }
   .faq-container {
     background-color: var(--card--color-dark);
+  }
+  .navbar.scrolled-linear {
+    background-color: #413257;
   }
   body {
     background-color: var(--primary-background-dark);
     color: var(--primary-text-color-dark);
   }
+
   .seo-info {
-    background-color: var(--dark-bg);
+    background-color: #101728ed;
   }
   .navbar {
-    background-color: var(--primary-background-dark);
+    background-color: var(--secondary-background);
   }
   .line-decorate span {
     background-color: var(--line-color-dark);
@@ -1516,15 +1528,38 @@ button {
   .top-course-category {
     background-color: var(--card--color-dark);
     color: var(--primary-text-color);
+    box-shadow: rgba(35, 40, 45, 0.2) 0px 0px 24px;
   }
 
-  .about-header {
-    background-color: var(--preview-color);
+  .top-course-category:hover {
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    transform: scale(1.03);
   }
-  .hero-images-section,
   .project-container,
+  .hero-images-section,
   .about-us-hero-container {
-    background-color: var(--card--color-dark);
+    background: var(--box-gradient);
+  }
+  .box-gradient {
+    background: var(--box-gradient);
+  }
+
+  .about-us-hero-container h3 {
+    color: #ffffff;
+  }
+
+  .about-us-hero-container p {
+    color: var(--secondary-text-color);
+    font-size: 18px;
+  }
+
+  .about-hero-motto {
+    color: #ffffff;
+  }
+  .project-card .desc {
+    font-size: 15px;
+    color: var(--secondary-text-color);
+    text-transform: capitalize;
   }
   .toggle-btn {
     color: #fff;

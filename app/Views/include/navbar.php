@@ -6,7 +6,7 @@
         <ul>
             <li><a href="/">Home</a></li>
             <li><a href="<?php echo base_url('course') ?>">Course</a></li>
-            <li><a href="<?php echo base_url('/#event') ?>">Event</a></li>
+            <!-- <li><a href="<?php echo base_url('/#event') ?>">Event</a></li> -->
             <li><a href="<?php echo base_url('/#about') ?>">About us</a></li>
             <li><a href="<?php echo base_url('/contact') ?>">contact us</a></li>
         </ul>

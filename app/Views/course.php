@@ -31,7 +31,7 @@ include_once 'include/navbar.php';
 
 <!-- main section start -->
 
-<header class="content-header">
+<header class="content-header linear-bg">
 
     <div class="content-header-thumbnail">
         <img src="" alt="">

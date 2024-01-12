@@ -1,0 +1,13 @@
+CRITICAL - 2024-01-11 08:52:07 --> Undefined variable $title
+in APPPATH\Views\include\header.php on line 7.
+ 1 APPPATH\Views\include\header.php(7): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $title', 'C:\\xampp\\htdocs\\cpd\\app\\Views\\include\\header.php', 7)
+ 2 APPPATH\Views\contact.php(2): include_once('C:\\xampp\\htdocs\\cpd\\app\\Views\\include\\header.php')
+ 3 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\cpd\\app\\Views\\contact.php')
+ 4 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('contact', [], true)
+ 6 APPPATH\Controllers\Home.php(33): view('contact')
+ 7 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Home->contact()
+ 8 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 9 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\cpd\\public\\index.php')

@@ -10,7 +10,7 @@
 }
 .faq-container {
   background-color: #fff;
-  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+  /* box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px; */
   /* margin:  auto 0 auto; */
 }
 .home-faq {
@@ -63,7 +63,6 @@
   justify-content: flex-start;
 }
 .home-text40 {
-  color: var(--primary-color);
   font-family: "Raleway";
   margin-bottom: var(--dl-space-space-oneandhalfunits);
 }
