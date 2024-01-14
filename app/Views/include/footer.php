@@ -55,7 +55,7 @@
 <!-- <link rel="stylesheet" href="https://demos.creative-tim.com/notus-js/assets/styles/tailwind.css"> -->
 <link rel="stylesheet" href="https://demos.creative-tim.com/notus-js/assets/vendor/@fortawesome/fontawesome-free/css/all.min.css">
 
-<footer class="relative pt-8 pb-6 linear-bg">
+<footer class="relative pt-8 pb-6">
     <div class="container mx-auto px-4">
         <div class="flex flex-wrap text-left lg:text-left">
             <div class="w-full lg:w-6/12 px-4">
@@ -88,6 +88,9 @@
                             <li>
                                 <a class="text-blueGray-600 hover:text-blueGray-800 font-semibold block pb-2 text-sm" href="<?php echo base_url('/contact') ?>">contact us</a>
                             </li>
+                            <li>
+                                <a class="text-blueGray-600 hover:text-blueGray-800 font-semibold block pb-2 text-sm" href="<?php echo base_url('/contact') ?>">FAQ</a>
+                            </li>
 
                         </ul>
                     </div>
@@ -110,7 +113,7 @@
             </div>
         </div>
         <hr class="my-6 border-blueGray-300">
-        <div class="flex flex-wrap items-center md:justify-between justify-center after-linear">
+        <div class="flex flex-wrap items-center md:justify-between justify-center">
             <a href="https://ix-portfolio.vercel.app/" target="_blank">
                 <p>Developed by <span> IX IT and Marketing Solution</span></p>
             </a>

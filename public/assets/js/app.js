@@ -4,7 +4,7 @@ const toggleMenu = () => {
   menuContainer.classList.toggle("open-nav");
 };
 
-const navbar = document.querySelector(".navbar");
+const navbar = document.querySelector(".navigation");
 const body = document.querySelector("body");
 // window.addEventListener("scroll", () => {
 //   console.log(window.scrollY);

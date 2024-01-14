@@ -3,9 +3,7 @@ include_once 'include/header.php';
 ?>
 
 <!-- seo-info start -->
-<?php
-include_once 'include/seoHeader.php';
-?>
+
 <!-- seo-info end -->
 
 
@@ -18,94 +16,30 @@ include_once 'include/navbar.php';
 
 
 <!-- main section start -->
-
-<header class="contact-header">
-
-    <div class="contact-container-header">
-        <h1 class="contact-header-text">Contact us</h1>
-        <p>Lorem ipsum dolor sit amet.</p>
-        <!-- <img class="contact-banner" src="assets/images/contact.jpg" alt=""> -->
-    </div>
-</header>
-
-<section class="contact-container-form">
-
-    <div class="con-container">
-
-        <div class="contact-address">
-            <h2>Get in touch</h2>
-            <ul>
-                <li>
-                    <div class="icon-container">
-                        <i class="bi bi-geo-alt"></i>
-                    </div>
-                    <div class="contact-infos">
-                        Office address
-                    </div>
-                    <div class="contact-detail">
-                        Mojo around Debora Mercume Hotel
-                    </div>
-                </li>
-                <li>
-                    <div class="icon-container">
-                        <i class="bi bi-envelope"></i>
-                    </div>
-                    <div class="contact-infos">
-                        Email
-                    </div>
-                    <div class="contact-detail">
-                        yetinayet.bg@gmail.com
-                    </div>
-                </li>
-                <li>
-                    <div class="icon-container">
-                        <i class="bi bi-phone"></i>
-                    </div>
-                    <div class="contact-infos">
-                        phone
-                    </div>
-                    <div class="contact-detail">
-                        <span>+251-913-76492</span> <br>
-                        <span>+251-913-76492</span>
-                    </div>
-                </li>
-            </ul>
+<section class="bg-white dark:bg-gray-900">
+    <div class="grid py-8 px-4 mx-auto max-w-screen-xl lg:gap-8 xl:gap-0 lg:py-16 lg:grid-cols-12">
+        <div class="place-self-center mr-auto lg:col-span-7">
+            <h1 class="mb-4 max-w-2xl text-4xl font-extrabold leading-none md:text-5xl xl:text-6xl dark:text-white">Payments tool for software companies</h1>
+            <p class="mb-6 max-w-2xl font-light text-gray-500 lg:mb-8 md:text-lg lg:text-xl dark:text-gray-400">From checkout to global sales tax compliance, companies around the world use Flowbite to simplify their payment stack.</p>
+            <a href="#" class="inline-flex justify-center items-center py-3 px-5 mr-3 text-base font-medium text-center text-white rounded-lg bg-primary-700 hover:bg-primary-800 focus:ring-4 focus:ring-primary-300 dark:focus:ring-primary-900">
+                Get started
+                <svg class="ml-2 -mr-1 w-5 h-5" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+                    <path fill-rule="evenodd" d="M10.293 3.293a1 1 0 011.414 0l6 6a1 1 0 010 1.414l-6 6a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-4.293-4.293a1 1 0 010-1.414z" clip-rule="evenodd"></path>
+                </svg>
+            </a>
+            <a href="#" class="inline-flex justify-center items-center py-3 px-5 text-base font-medium text-center text-gray-900 rounded-lg border border-gray-300 hover:bg-gray-100 focus:ring-4 focus:ring-gray-100 dark:text-white dark:border-gray-700 dark:hover:bg-gray-700 dark:focus:ring-gray-800">
+                Speak to Sales
+            </a>
         </div>
-
-        <div class="contact-form-container">
-            <form action="">
-
-                <div class="drop">Drop us line</div>
-
-                <div class="contact-form-control">
-                    <input type="text" name="" id="" placeholder="Your Name">
-                </div>
-
-
-                <div class="contact-form-control">
-                    <input type="text" name="" id="" placeholder="Your Email">
-                </div>
-
-                <div class="contact-form-control">
-                    <input type="text" name="" id="" placeholder="Contact us Number">
-                </div>
-
-                <div class="contact-form-control">
-                    <input type="text" name="" id="" placeholder="Subject">
-                </div>
-
-                <div class="contact-form-control">
-                    <textarea name="" id="" cols="10" rows="5" placeholder="Message"></textarea>
-                </div>
-
-                <button class="submit-btn">
-                    <i class="bi bi-send"></i>
-                    <span>Send Message</span>
-                </button>
-            </form>
+        <div class="hidden lg:mt-0 lg:col-span-5 lg:flex">
+            <img src="https://flowbite.s3.amazonaws.com/blocks/marketing-ui/hero/phone-mockup.png" alt="mockup">
         </div>
     </div>
 </section>
+
+<?php
+include_once 'include/contact.php';
+?>
 
 <div class="map-container">
     <div class="mapouter">

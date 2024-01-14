@@ -13,6 +13,8 @@
     <script src="assets/js/app.js" defer></script>
     <script src="assets/js/jquery.js" defer></script>
     <link rel="stylesheet" href="https://cdn.tailgrids.com/tailgrids-fallback.css" />
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/flowbite/2.2.1/flowbite.min.css" rel="stylesheet" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/flowbite/2.2.1/flowbite.min.js"></script>
 
 </head>
 
@@ -26,7 +28,6 @@
                         clifford: '#da373d',
                     }
                 }
-                plugins: [require("daisyui")],
             }
 
         }

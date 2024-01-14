@@ -29,9 +29,7 @@
 
 
     <!-- seo-info start -->
-    <?php
-    include_once 'include/seoHeader.php';
-    ?>
+
     <!-- seo-info end -->
 
 

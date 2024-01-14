@@ -28,6 +28,11 @@ class Home extends BaseController
     {
         return view('about');
     }
+    public function faq()
+    {
+        $data['title'] = 'faq';
+        return view('faqPage', $data);
+    }
     public function contact()
     {
         $data['title'] = "Contact";
