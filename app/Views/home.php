@@ -422,7 +422,7 @@ if (!empty($team)) : ?>
             </div>
             <div class="grid gap-12 items-center md:grid-cols-3 ">
                 <div class="space-y-4 text-center">
-                    <img class="w-64 h-64 mx-auto object-cover rounded-xl md:w-40 md:h-40 lg:w-64 lg:h-64" src="assets/images/team1.png" alt="woman" loading="lazy" width="640" height="805">
+                    <img class="w-64 h-64 mx-auto object-cover rounded-xl md:w-40 md:h-40 lg:w-64 lg:h-64 bg-gray-200 dark:bg-indigo-400" src="assets/images/team1.png" alt="woman" loading="lazy" width="640" height="805">
                     <div>
                         <h4 class="text-2xl">Dr Rahel Mekonon</h4>
                         <span class="block text-sm text-gray-500 dark:text-white">Instructor</span>
@@ -436,7 +436,7 @@ if (!empty($team)) : ?>
                     </div>
                 </div>
                 <div class="space-y-4 text-center">
-                    <img class="w-64 h-64 mx-auto object-cover rounded-xl md:w-40 md:h-40 lg:w-64 lg:h-64" src="assets/images/team2.png" alt="woman" loading="lazy" width="1000" height="667">
+                    <img class="w-64 h-64 mx-auto object-cover rounded-xl md:w-40 md:h-40 lg:w-64 bg-gray-200  lg:h-64" src="assets/images/team2.png" alt="woman" loading="lazy" width="1000" height="667">
                     <div>
                         <h4 class="text-2xl">Dr Hiwet W/maryame</h4>
                         <span class="block text-sm text-gray-500">Chief Operations Officer</span>
@@ -531,7 +531,7 @@ endif;
 
                 <div class="mt-6 space-y-8 md:mt-8">
                     <p class="flex items-start -mx-2">
-                        <svg xmlns="http://www.w3.org/2000/svg" class="w-6 h-6 mx-2 text-gary-500 dark:text-violet-500" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="w-6 h-6 mx-2 text-gary-500 dark:text-violet-700" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
                             <path stroke-linecap="round" stroke-linejoin="round" d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z" />
                             <path stroke-linecap="round" stroke-linejoin="round" d="M15 11a3 3 0 11-6 0 3 3 0 016 0z" />
                         </svg>
@@ -542,7 +542,7 @@ endif;
                     </p>
 
                     <p class="flex items-start -mx-2">
-                        <svg xmlns="http://www.w3.org/2000/svg" class="w-6 h-6 mx-2 text-gray-500 dark:text-violet-500" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="w-6 h-6 mx-2 text-gray-500 dark:text-violet-700" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
                             <path stroke-linecap="round" stroke-linejoin="round" d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z" />
                         </svg>
 
@@ -550,7 +550,7 @@ endif;
                     </p>
 
                     <p class="flex items-start -mx-2">
-                        <svg xmlns="http://www.w3.org/2000/svg" class="w-6 h-6 mx-2 text-gray-500 dark:text-violet-500" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="w-6 h-6 mx-2 text-gray-500 dark:text-violet-700" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
                             <path stroke-linecap="round" stroke-linejoin="round" d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
                         </svg>
 
@@ -611,7 +611,7 @@ endif;
                             <textarea class="block w-full h-32 px-5 py-3 mt-2 text-gray-700 placeholder-gray-400 bg-white border border-gray-200 rounded-md md:h-48 dark:placeholder-gray-600 dark:bg-gray-900 dark:text-gray-300 dark:border-gray-700 focus:border-blue-400 dark:focus:border-blue-400 focus:ring-blue-400 focus:outline-none focus:ring focus:ring-opacity-40" placeholder="Message"></textarea>
                         </div>
 
-                        <button class="w-full px-6 py-3 mt-6 text-sm font-medium tracking-wide text-white capitalize transition-colors duration-300 transform bg-blue-500 dark:bg-violet-500 rounded-md hover:bg-blue-400 focus:outline-none focus:ring focus:ring-blue-300 focus:ring-opacity-50">
+                        <button class="w-full px-6 py-3 mt-6 text-sm font-medium tracking-wide text-white capitalize transition-colors duration-300 transform bg-black-300 dark:bg-violet-500 rounded-md hover:bg-violet-400 focus:outline-none focus:ring focus:ring-blue-300 focus:ring-opacity-50">
                             get in touch
                         </button>
                     </form>

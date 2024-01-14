@@ -12,27 +12,7 @@
                         <span>
                             Here are some of the most common questions that we get.
                         </span>
-                        <br />
-                        <span>
-                            <span>
-                                <span></span>
-                                <span></span>
-                            </span>
-                            <span>
-                                <span></span>
-                                <span></span>
-                            </span>
-                        </span>
-                        <span>
-                            <span>
-                                <span></span>
-                                <span></span>
-                            </span>
-                            <span>
-                                <span></span>
-                                <span></span>
-                            </span>
-                        </span>
+                        <br>
                     </span>
                 </div>
                 <div class="home-container31">

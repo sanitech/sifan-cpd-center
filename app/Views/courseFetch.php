@@ -28,6 +28,8 @@
     <!-- filter end -->
 
 
+
+
     <!-- course start -->
     <div class="course-list-container" id="courseContainer">
         <?php

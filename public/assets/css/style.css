@@ -1495,6 +1495,7 @@ button {
     --card--color-dark: #1f2a37;
     --icon-background: #fff;
     --secondary-text-color-faq-sub: rgb(200, 200, 200);
+    --secondary-text-color-faq: rgb(227, 225, 225);
     --primary-background: linear-gradient(to bottom, #101728, #09090b);
     --secondary-background: #101728;
     --secondary-background-continue: #09090b;
