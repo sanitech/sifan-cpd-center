@@ -12,11 +12,19 @@
 </head>
 
 <body>
-
-    <!-- seo-info start -->
-
-    <!-- seo-info end -->
-
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        clifford: '#da373d',
+                    }
+                }
+            }
+        }
+    </script>
+    <link rel="stylesheet" href="../assets/css/style.css">
 
     <!-- navbar start -->
     <?php
@@ -29,98 +37,16 @@
     <!-- main section start -->
 
 
-    <section class="course-list-section">
-
-        <h3>Course</h3>
-
-
-        <div class="filter-container">
-
-            <div class="filter-course filter-btn">
-                <i class="bi bi-filter"></i> <span>Filter</span>
-            </div>
-            <div class="filter-course">
-                <select name="" id="">
-                    <option value="" disabled selected>By Category</option>
-                    <?php foreach ($category as $category) : ?>
-                        <option value=""><?php echo $category['category'] ?></option>
-                    <?php endforeach; ?>
-
-                </select>
-            </div>
-            <!-- <div class="filter-course">
-                <select name="" id="">
-                    <option value="" disabled selected>By Credit hour</option>
-                    <option value="">Coronavirues</option>
-                    <option value="">Coronavirues</option>
-                    <option value="">Coronavirues</option>
-                    <option value="">Coronavirues</option>
-                    <option value="">Coronavirues</option>
-
-                </select>
-            </div> -->
-            <div class="filter-course">
-                <div class="search-box">
-                    <input type="text" name="" id="" placeholder="Search...">
-                    <i class="bi bi-search"></i>
-                </div>
-            </div>
-        </div>
-
-        <!-- filter end -->
-
-
-        <!-- course start -->
-        <div class="course-list-container">
-
-            <?php
-
-            if ($course == null) {
-                $notFound = "No Course found";
-                echo "<div class='alert alert-info'>$notFound</div>";
-            }
-            foreach ($course as $course) :
-                $id = $course['co_id'];
-            ?>
-
-                <a href="<?php echo base_url("course/$id") ?>" class="course-card">
-                    <div class="course-thumbnail">
-                        <img src="<?php echo  base_url('/uploads') . '/' . $course['thumbnail'] ?>" alt="" class="category-thu" />
-
-                    </div>
-                    <div class="course-info-card">
-                        <h3 class="course-title"><?php echo $course['course'] ?></h3>
-                        <div class="course-desc"><?php echo $course['disc'] ?></div>
-                    </div>
-                    <div class="course-info-footer">
-                        <div class="course-hour">
-                            <i class="bi bi-clock"></i><span><?php echo $course['cr_hr'] ?>hr</span>
-                        </div>
-                        <div class="course-rate">
-                            <i class="bi bi-star-fill"></i>
-                            <i class="bi bi-star-fill"></i>
-                            <i class="bi bi-star-fill"></i>
-                            <i class="bi bi-star-fill"></i>
-                            <i class="bi bi-star-half"></i>
-                        </div>
-                    </div>
-                </a>
-            <?php
-
-            endforeach;
-            ?>
-
-
-
-
-
-        </div>
-
-    </section>
-
+    <?php
+    include_once 'courseFetch.php';
+    ?>
     <!-- main section end -->
 
 
+    <?php
+    include_once 'include/faq.php';
+
+    ?>
 
     <!-- footer start -->
     <?php

@@ -15,13 +15,12 @@ class Home extends BaseController
         $teamModel = new TeamModel();
         $courseCategoryModel = new CourseCategoryModel();
         $courseModel = new CourseModel();
+        $data['logo'] = 'assets/images/logo.png';
         $data['title'] = 'Home - sefan cpd center';
         $data['category'] = $courseCategoryModel->where('status', true)->limit(1)->findAll();
         $data['course'] = $courseModel->findAll();
         $data['event'] = $eventModel->findAll();
         $data['team'] = $teamModel->findAll();
-
-
         return view('home', $data);
     }
     public function about()
@@ -30,17 +29,18 @@ class Home extends BaseController
     }
     public function faq()
     {
+        $data['logo'] = 'assets/images/logo.png';
         $data['title'] = 'faq';
         return view('faqPage', $data);
     }
     public function contact()
     {
-        $data['title'] = "Contact";
+        $data['logo'] = 'assets/images/logo.png';
+        +$data['title'] = "Contact";
         return view('contact', $data);
     }
     public function maintenance()
     {
-
         return view('error_maintenance');
     }
 

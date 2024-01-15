@@ -11,6 +11,8 @@ class Course extends BaseController
     {
         $courseCategoryModel = new CourseCategoryModel();
         $courseModel = new CourseModel();
+        $data['logo'] = 'assets/images/logo.png';
+
         $data['title'] = 'course';
         $data['category'] = $courseCategoryModel->orderBy('date', 'desc')->findAll();
         $data['course'] = $courseModel->orderBy('date', 'desc')->findAll();
@@ -21,6 +23,7 @@ class Course extends BaseController
         $courseCategoryModel = new CourseCategoryModel();
         $courseModel = new CourseModel();
 
+        $data['logo'] = '../assets/images/logo.png';
         $data['category'] = $courseCategoryModel->findAll();
         $data['course'] = $courseModel->where('cat_id', $id)->findAll();
 
@@ -34,6 +37,7 @@ class Course extends BaseController
         $courseCategoryModel = new CourseCategoryModel();
         $courseModel = new CourseModel();
 
+        $data['logo'] = '../assets/images/logo.png';
         $data['category'] = $courseCategoryModel->findAll();
         $data['courseSingle'] = $courseModel->where('co_id', $id)->first();
         $data['course'] = $courseModel->orderBy('date', 'desc')->findAll();
@@ -63,7 +67,7 @@ class Course extends BaseController
 
         foreach ($courses as $course) :
             $id = $course['co_id']; ?>
-            <a href="<?php echo base_url("course/$id") ?>" class="course-card">
+            <a href="<?php echo base_url("course/$id") ?>" class="course-card ">
                 <div class="course-thumbnail">
                     <img src="<?php echo  base_url('/uploads') . '/' . $course['thumbnail'] ?>" alt="" class="category-thu" />
 

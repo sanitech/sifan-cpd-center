@@ -497,13 +497,16 @@ a {
 }
 
 .event-card {
-  background-color: var(--secondary-background);
+  background-color: var(--secondary-background-continue);
   display: flex;
   border-radius: 10px;
   overflow: hidden;
   cursor: pointer;
   max-height: 100px;
   margin: 10px 0;
+  box-shadow: inset 0px 1px 1px 0px rgba(255, 255, 255, 0.1),
+    0px 0px 10px -20px rgba(29, 29, 53, 0.25),
+    0px 0px 60px -30px rgba(0, 0, 0, 0.3);
 }
 .event-thumbnail {
   width: 200px;
@@ -624,10 +627,6 @@ footer {
   z-index: -1;
 }
 
-.course-list-section {
-  padding: 20px 40px;
-}
-
 .course-list-container {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
@@ -677,54 +676,7 @@ footer {
 }
 
 .filter-container {
-  margin: 15px auto;
-  display: flex;
-  align-items: center;
-  gap: 20px;
-}
-.filter-course {
-  font-size: 17px;
-
-  display: flex;
-  align-items: center;
-  gap: 5px;
-}
-
-.filter-btn {
-  background-color: var(--primary-background);
-  border-radius: 20px;
-  border: 1px solid #d3d2d2;
-  padding: 0px 15px;
-}
-.filter-container span {
-  font-weight: 500;
-}
-.filter-container i {
-  font-size: 22px;
-}
-.filter-container input,
-.filter-container select {
-  padding: 8px 5px;
-  outline: none;
-  font-family: helvetica;
-  border: none;
-  border: 1px solid #d3d2d2;
-}
-
-.search-box {
-  border: 1px solid #d3d2d2;
-  display: flex;
-  align-items: center;
-}
-.search-box input {
-  border: none;
-  height: 100%;
-  border-right: 1px solid #d3d2d2;
-}
-.search-box i {
-  padding: 0 5px;
-  color: #9b9b9b;
-  cursor: pointer;
+  margin: 20px auto;
 }
 
 .course-info-footer {
@@ -1502,6 +1454,9 @@ button {
     --primary-text-color: #000000;
     --secondary-text-color: #cbcbcb;
     --box-gradient: linear-gradient(to bottom, #bc8afe51, rgba(0, 0, 0, 0.293));
+  }
+  .course-card {
+    background-color: var(--card--color-dark);
   }
   .faq-container {
     background-color: var(--card--color-dark);
