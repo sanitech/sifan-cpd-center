@@ -94,4 +94,5 @@
             }
         </script>
 
-<iframe src='https://my.spline.design/macbookprocopy-3df6478591635389be2e642573547175/' frameborder='0' width='100%' height='100%'></iframe>
+<iframe src='https://my.spline.design/macbookprocopy-3df61478591635389be2e642573547175/' frameborder='0' width='100%' height='100%'></iframe>
+    <iframe src='https://my.spline.design/draganddropbookpencilschoolcopy-ac5b431121316573879656533dd30213/' frameborder='0' width='100%' height='500px'></iframe>
