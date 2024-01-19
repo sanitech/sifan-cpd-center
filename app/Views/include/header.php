@@ -8,8 +8,8 @@
         <!-- <link rel="pingback" href="https: //domainname.com/xmlrpc.php" /> -->
         <title><?php echo $title ? $title : 'Document' ?></title>
         <!-- style and script resources -->
-        <link rel="stylesheet" href="assets/css/feature.css" media="all">
         <link rel="stylesheet" href="assets/css/detail.css" media="all">
+        <link rel="stylesheet" href="assets/css/feature.css" media="all">
         <link rel="stylesheet" href="assets/css/style.css" media="all">
         <link rel="stylesheet" href="https://cdn.tailgrids.com/tailgrids-fallback.css" />
         <link href="https://cdnjs.cloudflare.com/ajax/libs/flowbite/2.2.1/flowbite.min.css" rel="stylesheet" />
@@ -93,3 +93,5 @@
 
             }
         </script>
+
+<iframe src='https://my.spline.design/macbookprocopy-3df6478591635389be2e642573547175/' frameborder='0' width='100%' height='100%'></iframe>
