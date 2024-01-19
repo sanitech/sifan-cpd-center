@@ -16,7 +16,7 @@ class Home extends BaseController
         $courseCategoryModel = new CourseCategoryModel();
         $courseModel = new CourseModel();
         $data['logo'] = 'assets/images/logo.png';
-        $data['title'] = 'Home - sefan cpd center';
+        $data['title'] = 'Sifen CPD Center: Professional Development Courses in ethiopia';
         $data['category'] = $courseCategoryModel->where('status', true)->limit(1)->findAll();
         $data['course'] = $courseModel->findAll();
         $data['event'] = $eventModel->findAll();
@@ -36,7 +36,7 @@ class Home extends BaseController
     public function contact()
     {
         $data['logo'] = 'assets/images/logo.png';
-        +$data['title'] = "Contact";
+        $data['title'] = "Contact";
         return view('contact', $data);
     }
     public function maintenance()

@@ -16,7 +16,7 @@ include_once 'include/navbar.php';
 
 
 <!-- main section start -->
-<section class="bg-white dark:bg-gray-900">
+<!-- <section class="bg-white dark:bg-gray-900">
     <div class="grid py-8 px-4 mx-auto max-w-screen-xl lg:gap-8 xl:gap-0 lg:py-16 lg:grid-cols-12">
         <div class="place-self-center mr-auto lg:col-span-7">
             <h1 class="mb-4 max-w-2xl text-4xl font-extrabold leading-none md:text-5xl xl:text-6xl dark:text-white">Payments tool for software companies</h1>
@@ -35,7 +35,7 @@ include_once 'include/navbar.php';
             <img src="https://flowbite.s3.amazonaws.com/blocks/marketing-ui/hero/phone-mockup.png" alt="mockup">
         </div>
     </div>
-</section>
+</section> -->
 
 <?php
 include_once 'include/contact.php';

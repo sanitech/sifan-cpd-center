@@ -2,35 +2,11 @@
 include_once 'include/header.php';
 ?>
 
-<!-- seo-info start -->
-
-<!-- seo-info end -->
-
-
 <!-- navbar start -->
 <?php
 include_once 'include/navbar.php';
 ?>
 <!-- navbar end -->
-
-
-<!-- hero-section-start -->
-
-<!-- <header class="heros" id="home">
-    <div class="hero-text">
-        <h1>Take Charge of Your Future.
-            Unlock Your <span>Potential</span> With CPD</h1>
-        <p>To produce preferred and qualified health professionals and provide new and up-to-date training</p>
-        <a href="#course"> <button class="call-us-btn">Explore our courses</button></a>
-    </div>
-
-    <div class="hero-images">
-        <img src="assets/images/sefian cpd_.png" alt="" srcset="assets/images/sefian cpd_w768.png 1024w, assets/images/sefian cpd_w1024.png 768w " sizes="(max-width: 1024px) 768px,
-         550px">
-
-    </div>
-</header>
-hero-section-start -->
 
 
 
@@ -101,114 +77,9 @@ hero-section-start -->
 
         endforeach;
         ?>
-
-
-
-
     </div>
 </section>
 <!-- course-section end -->
-
-<!-- 
-<section class="flexible-course-section">
-
-    <div class="header-section">
-        <div class="header-text">
-            <div class="line-decorate">
-                <span class="line"></span>
-                <span class="line"></span>
-            </div>
-
-            <h1>learn with</h1>
-            <div class="line-decorate right-line">
-                <span class="line"></span>
-                <span class="line"></span>
-            </div>
-        </div>
-        <p class="header-footer-text">Dive deeper, connect closer, learn smarter. Choose your learning format.</p>
-    </div>
-
-
-    <div class="offering-course-container">
-        <div class="offering-course-category">
-            <img src="" alt="">
-            <div class="top-course-text-container">
-                <h3 class="offering-course-title">Online</h3>
-                <div class="top-course-description">
-                    Our online courses empower you to
-                    upskill at your own pace, fitting
-                    seamlessly into your busy schedule.
-                    Learn from expert instructors, access
-                    resources on demand, and enjoy the
-                    convenience of self-paced modules.
-                </div>
-            </div>
-        </div>
-        <div class="offering-course-category">
-            <img src="" alt="">
-            <div class="top-course-text-container">
-                <h3 class="offering-course-title">In-Person</h3>
-                <div class="top-course-description">
-                    Connect with fellow learners and
-                    industry experts in our vibrant
-                    in-person classrooms. Experience
-                    interactive workshops, engaging
-                    discussions, and personalized
-                    for hands-on learning that takes your
-                </div>
-            </div>
-        </div>
-        <div class="offering-course-category">
-            <img src="" alt="">
-            <div class="top-course-text-container">
-                <h3 class="offering-course-title">Blended</h3>
-                <div class="top-course-description">
-                    Maximize your learning with our
-                    blended formats that combine the
-                    flexibility of online modules with the
-                    dynamic energy of in-person sessions
-                    Enjoy personalized support,
-                </div>
-            </div>
-        </div>
-
-
-    </div>
-</section> -->
-
-<!-- 
-<section class="course-section" id="about">
-
-    <div class="header-section">
-        <div class="header-text">
-            <div class="line-decorate">
-                <span class="line"></span>
-                <span class="line"></span>
-            </div>
-
-            <h1>About us</h1>
-            <div class="line-decorate right-line">
-                <span class="line"></span>
-                <span class="line"></span>
-            </div>
-        </div>
-        <p class="header-footer-text">Upskill your future. Dive into Sifan's top courses, online, in-person, or blended.</p>
-    </div>
-
-    <div class="about-us-container">
-
-        <div class="about-us-text">
-            <h1>About sifan CDP center</h1>
-            <p>Embark on a journey of continuous professional development with Sifan CPD Center. Explore our diverse range of courses designed to ignite your </p>
-        </div>
-
-        <div class="about-us-image">
-            <img src="assets/images/contact.jpg" alt="">
-        </div>
-    </div>
-
-
-</section> -->
 
 
 
@@ -244,7 +115,6 @@ hero-section-start -->
 
 <!-- about-section start -->
 <section class="about-cont" id="abouts">
-
     <div class="header-section">
         <div class="header-text">
             <div class="line-decorate">
@@ -281,7 +151,7 @@ hero-section-start -->
                 <img src="../assets/images/cpd.png" alt="" loading="lazy">
             </div>
 
-            <div class="project-container">
+            <!-- <div class="project-container">
                 <div class="project-card">
                     <span class="point">3.5</span>
                     <span class="desc">Lorem, ipsum dolor.</span>
@@ -298,7 +168,7 @@ hero-section-start -->
                     <span class="point">3.5</span>
                     <span class="desc">Lorem, ipsum dolor.</span>
                 </div>
-            </div>
+            </div> -->
             <!-- </div> -->
         </section>
 
@@ -314,95 +184,6 @@ include 'include/services.php';
 
 ?>
 <!-- service-section end -->
-
-
-
-
-<!-- <section class="future">
-    <div class="home-features">
-        <div class="home-features-container">
-            <div class="home-features1">
-                <div class="home-container03">
-                    <span class="home-text03 sectionTitle font20">
-                        <span>features</span>
-                        <br />
-                    </span>
-                    <h2 class="home-features-heading heading2">
-                        Unlock Your Potential with Our CPD Center
-                    </h2>
-                    <span class="home-features-sub-heading ">
-                        Discover the key features that make our CPD Center the perfect
-                        place for your professional development.
-                    </span>
-                </div>
-                <div class="home-container04">
-                    <div class="feature-card-feature-card">
-                        <svg viewBox="0 0 1024 1024" class="feature-card-icon">
-                            <path d="M809.003 291.328l-297.003 171.819-297.003-171.819 275.456-157.397c4.779-2.731 9.899-4.48 15.147-5.333 9.301-1.451 18.987 0.128 27.904 5.291zM491.776 979.669c6.016 3.243 12.928 5.077 20.224 5.077 7.381 0 14.336-1.877 20.395-5.163 15.189-2.475 29.909-7.68 43.392-15.36l298.709-170.709c26.368-15.232 45.269-38.315 55.424-64.597 5.675-14.592 8.619-30.165 8.747-46.251v-341.333c0-20.395-4.821-39.723-13.397-56.917-0.939-3.029-2.219-5.973-3.883-8.832-1.963-3.371-4.267-6.357-6.912-8.96-1.323-1.835-2.731-3.669-4.139-5.419-9.813-12.203-21.845-22.528-35.456-30.507l-299.051-170.88c-26.027-15.019-55.467-19.84-83.328-15.531-15.531 2.432-30.507 7.637-44.288 15.488l-298.709 170.709c-16.341 9.429-29.824 21.888-40.149 36.267-2.56 2.56-4.864 5.547-6.784 8.832-1.664 2.901-2.987 5.888-3.925 8.96-1.707 3.456-3.243 6.955-4.608 10.496-5.632 14.635-8.576 30.208-8.704 45.995v341.632c0.043 30.293 10.581 58.197 28.331 80.128 9.813 12.203 21.845 22.528 35.456 30.507l299.051 170.88c13.824 7.979 28.587 13.099 43.605 15.445zM469.333 537.045v340.949l-277.12-158.336c-4.736-2.773-8.832-6.315-12.16-10.411-5.931-7.381-9.387-16.512-9.387-26.581v-318.379zM554.667 877.995v-340.949l298.667-172.757v318.379c-0.043 5.163-1.067 10.496-2.987 15.445-3.413 8.789-9.6 16.384-18.176 21.333z"></path>
-                        </svg>
-                        <h3 class="feature-card-text heading3">
-                            <span>Flexible Course Options</span>
-                        </h3>
-                        <span class="feature-card-text1">
-                            <span>
-                                Choose from a wide range of courses that fit your
-                                schedule and interests.
-                            </span>
-                        </span>
-
-                    </div>
-                    <div class="feature-card-feature-card">
-                        <svg viewBox="0 0 1024 1024" class="feature-card-icon">
-                            <path d="M809.003 291.328l-297.003 171.819-297.003-171.819 275.456-157.397c4.779-2.731 9.899-4.48 15.147-5.333 9.301-1.451 18.987 0.128 27.904 5.291zM491.776 979.669c6.016 3.243 12.928 5.077 20.224 5.077 7.381 0 14.336-1.877 20.395-5.163 15.189-2.475 29.909-7.68 43.392-15.36l298.709-170.709c26.368-15.232 45.269-38.315 55.424-64.597 5.675-14.592 8.619-30.165 8.747-46.251v-341.333c0-20.395-4.821-39.723-13.397-56.917-0.939-3.029-2.219-5.973-3.883-8.832-1.963-3.371-4.267-6.357-6.912-8.96-1.323-1.835-2.731-3.669-4.139-5.419-9.813-12.203-21.845-22.528-35.456-30.507l-299.051-170.88c-26.027-15.019-55.467-19.84-83.328-15.531-15.531 2.432-30.507 7.637-44.288 15.488l-298.709 170.709c-16.341 9.429-29.824 21.888-40.149 36.267-2.56 2.56-4.864 5.547-6.784 8.832-1.664 2.901-2.987 5.888-3.925 8.96-1.707 3.456-3.243 6.955-4.608 10.496-5.632 14.635-8.576 30.208-8.704 45.995v341.632c0.043 30.293 10.581 58.197 28.331 80.128 9.813 12.203 21.845 22.528 35.456 30.507l299.051 170.88c13.824 7.979 28.587 13.099 43.605 15.445zM469.333 537.045v340.949l-277.12-158.336c-4.736-2.773-8.832-6.315-12.16-10.411-5.931-7.381-9.387-16.512-9.387-26.581v-318.379zM554.667 877.995v-340.949l298.667-172.757v318.379c-0.043 5.163-1.067 10.496-2.987 15.445-3.413 8.789-9.6 16.384-18.176 21.333z"></path>
-                        </svg>
-                        <h3 class="feature-card-text heading3">
-                            <span>Expert Instructors</span>
-                        </h3>
-                        <span class="feature-card-text1">
-                            <span>
-                                Learn from experienced professionals in the field who
-                                are passionate about teaching.
-                            </span>
-                        </span>
-                    </div>
-                    <div class="feature-card-feature-card">
-                        <svg viewBox="0 0 1024 1024" class="feature-card-icon">
-                            <path d="M809.003 291.328l-297.003 171.819-297.003-171.819 275.456-157.397c4.779-2.731 9.899-4.48 15.147-5.333 9.301-1.451 18.987 0.128 27.904 5.291zM491.776 979.669c6.016 3.243 12.928 5.077 20.224 5.077 7.381 0 14.336-1.877 20.395-5.163 15.189-2.475 29.909-7.68 43.392-15.36l298.709-170.709c26.368-15.232 45.269-38.315 55.424-64.597 5.675-14.592 8.619-30.165 8.747-46.251v-341.333c0-20.395-4.821-39.723-13.397-56.917-0.939-3.029-2.219-5.973-3.883-8.832-1.963-3.371-4.267-6.357-6.912-8.96-1.323-1.835-2.731-3.669-4.139-5.419-9.813-12.203-21.845-22.528-35.456-30.507l-299.051-170.88c-26.027-15.019-55.467-19.84-83.328-15.531-15.531 2.432-30.507 7.637-44.288 15.488l-298.709 170.709c-16.341 9.429-29.824 21.888-40.149 36.267-2.56 2.56-4.864 5.547-6.784 8.832-1.664 2.901-2.987 5.888-3.925 8.96-1.707 3.456-3.243 6.955-4.608 10.496-5.632 14.635-8.576 30.208-8.704 45.995v341.632c0.043 30.293 10.581 58.197 28.331 80.128 9.813 12.203 21.845 22.528 35.456 30.507l299.051 170.88c13.824 7.979 28.587 13.099 43.605 15.445zM469.333 537.045v340.949l-277.12-158.336c-4.736-2.773-8.832-6.315-12.16-10.411-5.931-7.381-9.387-16.512-9.387-26.581v-318.379zM554.667 877.995v-340.949l298.667-172.757v318.379c-0.043 5.163-1.067 10.496-2.987 15.445-3.413 8.789-9.6 16.384-18.176 21.333z"></path>
-                        </svg>
-                        <h3 class="feature-card-text heading3">
-                            <span>Interactive Learning</span>
-                        </h3>
-                        <span class="feature-card-text1">
-                            <span>
-                                Engage in interactive activities and discussions to
-                                enhance your learning experience.
-                            </span>
-                        </span>
-                    </div>
-                    <div class="feature-card-feature-card">
-                        <svg viewBox="0 0 1024 1024" class="feature-card-icon">
-                            <path d="M809.003 291.328l-297.003 171.819-297.003-171.819 275.456-157.397c4.779-2.731 9.899-4.48 15.147-5.333 9.301-1.451 18.987 0.128 27.904 5.291zM491.776 979.669c6.016 3.243 12.928 5.077 20.224 5.077 7.381 0 14.336-1.877 20.395-5.163 15.189-2.475 29.909-7.68 43.392-15.36l298.709-170.709c26.368-15.232 45.269-38.315 55.424-64.597 5.675-14.592 8.619-30.165 8.747-46.251v-341.333c0-20.395-4.821-39.723-13.397-56.917-0.939-3.029-2.219-5.973-3.883-8.832-1.963-3.371-4.267-6.357-6.912-8.96-1.323-1.835-2.731-3.669-4.139-5.419-9.813-12.203-21.845-22.528-35.456-30.507l-299.051-170.88c-26.027-15.019-55.467-19.84-83.328-15.531-15.531 2.432-30.507 7.637-44.288 15.488l-298.709 170.709c-16.341 9.429-29.824 21.888-40.149 36.267-2.56 2.56-4.864 5.547-6.784 8.832-1.664 2.901-2.987 5.888-3.925 8.96-1.707 3.456-3.243 6.955-4.608 10.496-5.632 14.635-8.576 30.208-8.704 45.995v341.632c0.043 30.293 10.581 58.197 28.331 80.128 9.813 12.203 21.845 22.528 35.456 30.507l299.051 170.88c13.824 7.979 28.587 13.099 43.605 15.445zM469.333 537.045v340.949l-277.12-158.336c-4.736-2.773-8.832-6.315-12.16-10.411-5.931-7.381-9.387-16.512-9.387-26.581v-318.379zM554.667 877.995v-340.949l298.667-172.757v318.379c-0.043 5.163-1.067 10.496-2.987 15.445-3.413 8.789-9.6 16.384-18.176 21.333z"></path>
-                        </svg>
-                        <h3 class="feature-card-text heading3">
-                            <span>Career Development Support</span>
-                        </h3>
-                        <span class="feature-card-text1">
-                            <span>
-                                Receive guidance and resources to help you advance in
-                                your career after completing a course.
-                            </span>
-                        </span>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-</section> -->
-
-
-
-
-
 
 
 
@@ -424,21 +205,21 @@ if (!empty($team)) : ?>
                     <img class="w-64 h-64 mx-auto object-cover rounded-xl md:w-40 md:h-40 lg:w-64 lg:h-64 bg-gray-200 dark:bg-indigo-400" src="assets/images/team1.png" alt="woman" loading="lazy" width="640" height="805">
                     <div>
                         <h4 class="text-2xl">Dr Rahel Mekonon</h4>
-                        <span class="block text-sm text-gray-500 dark:text-white">Instructor</span>
+                        <span class="block text-sm text-gray-500 dark:text-gray-600">Instructor</span>
                     </div>
                 </div>
                 <div class="space-y-4 text-center">
-                    <img class="w-64 h-64 mx-auto object-cover rounded-xl md:w-48 md:h-64 lg:w-64 lg:h-80" src="https://tailus.io/sources/blocks/classic/preview/images/man.jpg" alt="man" loading="lazy" width="1000" height="667">
+                    <img class="w-64 h-64 mx-auto object-cover rounded-xl md:w-48 md:h-64 lg:w-64 lg:h-80" src="assets/images/sifan cpd co founder.png" alt="man" loading="lazy" width="1000" height="667">
                     <div>
                         <h4 class="text-2xl">Jonathan Doe</h4>
-                        <span class="block text-sm text-gray-500">Chief Technical Officer</span>
+                        <span class="block text-sm text-gray-500 dark:text-gray-600">Co-funder</span>
                     </div>
                 </div>
                 <div class="space-y-4 text-center">
                     <img class="w-64 h-64 mx-auto object-cover rounded-xl md:w-40 md:h-40 lg:w-64 bg-gray-200  lg:h-64" src="assets/images/team2.png" alt="woman" loading="lazy" width="1000" height="667">
                     <div>
                         <h4 class="text-2xl">Dr Hiwet W/maryame</h4>
-                        <span class="block text-sm text-gray-500">Chief Operations Officer</span>
+                        <span class="block text-sm text-gray-500 dark:text-gray-600">Instructor</span>
                     </div>
                 </div>
             </div>

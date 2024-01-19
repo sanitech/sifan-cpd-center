@@ -38,6 +38,7 @@ const body = document.querySelector("body");
 // });
 
 const sections = document.querySelectorAll("section");
+const socialMediaSection = document.querySelector(".social-media");
 
 const observer = new IntersectionObserver(
   (entries, self) => {
@@ -110,3 +111,16 @@ function changeNavbarColor(sectionId) {
     // Add more cases for each section
   }
 }
+
+const socialFetch = () => {
+  social.forEach((social) => {
+    console.log(social.name);
+    socialMediaSection.innerHTML += `
+     <a class="mx-1.5 dark:hover:text-blue-400 text-gray-400 transition-colors duration-300 transform hover:text-blue-500" href="#">
+                           ${social.icon}
+      </a>
+    `;
+  });
+};
+
+socialFetch();

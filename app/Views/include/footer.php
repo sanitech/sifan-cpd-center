@@ -89,7 +89,7 @@
                                 <a class="text-blueGray-600 hover:text-blueGray-800 font-semibold block pb-2 text-sm" href="<?php echo base_url('/contact') ?>">contact us</a>
                             </li>
                             <li>
-                                <a class="text-blueGray-600 hover:text-blueGray-800 font-semibold block pb-2 text-sm" href="<?php echo base_url('/contact') ?>">FAQ</a>
+                                <a class="text-blueGray-600 hover:text-blueGray-800 font-semibold block pb-2 text-sm" href="<?php echo base_url('/fa1') ?>">FAQs</a>
                             </li>
 
                         </ul>
@@ -118,9 +118,9 @@
                 <p>Developed by <span> IX IT and Marketing Solution</span></p>
             </a>
             <div class="footer-header-social-media">
-                <a href="" target="_blank"><i class="bi bi-github"></i></a>
-                <a href="" target="_blank"> <i class="bi bi-linkedin"></i></a>
-                <a href="" target="_blank"> <i class="bi bi-telegram"></i></a>
+                <a href="https://github.com/ixtechsolution" target="_blank"><i class="bi bi-github"></i></a>
+                <a href="https://www.linkedin.com/in/ix-solutions-b410832ab" target="_blank"> <i class="bi bi-linkedin"></i></a>
+                <a href="https://t.me/IX_Technologies" target="_blank"> <i class="bi bi-telegram"></i></a>
             </div>
         </div>
     </div>

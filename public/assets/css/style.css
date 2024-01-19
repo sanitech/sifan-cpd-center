@@ -1512,6 +1512,9 @@ button {
   .about-hero-motto {
     color: #ffffff;
   }
+  .project-card{
+    background-color: #28193b;
+  }
   .project-card .desc {
     font-size: 15px;
     color: var(--secondary-text-color);

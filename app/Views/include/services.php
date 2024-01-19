@@ -36,6 +36,8 @@
                shadow-md
                hover:shadow-lg
                mb-8
+               dark:bg-gray-800
+               dark:text-gray-50
                ">
                     <div class="
                   w-[70px]
@@ -43,9 +45,12 @@
                   flex
                   items-center
                   justify-center
-                  bg-violet-300
+                  bg-violet-0
+                  shadow-md
                   rounded-2xl
                   mb-8
+                  dark:bg-violet-800
+
                   ">
                         <svg fill="000" width="800px" height="800px" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" style="width: 50px;">
                             <path d="M17.673 5.606a3326.02 3326.02 0 0 1-5.671-2.674L.138 8.524l2.03.98L2 9.531V20h1v-9.626l.72-.124.28.135v5.288c0 .914 5.206 3.533 6.249 4.049a3.89 3.89 0 0 0 3.48-.026C20 16.486 20 15.895 20 15.673v-5.288l3.854-1.857s-3.8-1.801-6.181-2.922zM19 15.504a51.526 51.526 0 0 1-5.726 3.302 2.884 2.884 0 0 1-2.582.02A40.184 40.184 0 0 1 5 15.521v-4.655l7 3.373 7-3.373zm-7-2.373L5.416 9.958l6.469-1.115-.17-.987-7.85 1.354-1.403-.676 9.537-4.495c.825.393 8.523 4.014 9.542 4.494z" />
@@ -53,7 +58,7 @@
                         </svg>
 
                     </div>
-                    <h4 class="font-semibold text-xl text-dark mb-3">
+                    <h4 class="font-semibold text-xl text-dark mb-3 dark:text-gray-50">
                         Flexible Course Options
                     </h4>
                     <p class="text-body-color">
@@ -68,9 +73,12 @@
                xl:px-10
                rounded-[20px]
                bg-white
+                  bg-violet-0
                shadow-md
                hover:shadow-lg
                mb-8
+               dark:bg-gray-800
+               dark:text-gray-50
                ">
                     <div class="
                   w-[70px]
@@ -78,9 +86,12 @@
                   flex
                   items-center
                   justify-center
-                  bg-violet-300
+                  bg-violet-0
+                  shadow-md
                   rounded-2xl
                   mb-8
+                  dark:bg-violet-800
+
                   ">
                         <svg fill="#000" height="800px" width="800px" version="1.1" style="width: 50px;" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 24 24" enable-background="new 0 0 24 24" xml:space="preserve">
                             <g id="user-expert">
@@ -90,7 +101,7 @@
                             </g>
                         </svg>
                     </div>
-                    <h4 class="font-semibold text-xl text-dark mb-3">
+                    <h4 class="font-semibold text-xl text-dark mb-3 dark:text-gray-50">
                         Expert Instructors
                     </h4>
                     <p class="text-body-color">
@@ -108,6 +119,8 @@
                shadow-md
                hover:shadow-lg
                mb-8
+               dark:bg-gray-800
+dark:text-gray-50
                ">
                     <div class="
                   w-[70px]
@@ -115,9 +128,11 @@
                   flex
                   items-center
                   justify-center
-                  bg-violet-300
+               bg-violet-0
+                  shadow-md
                   rounded-2xl
                   mb-8
+                  dark:bg-violet-800
                   ">
                         <svg fill="#000" version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" style="width: 50px;" xmlns:xlink="http://www.w3.org/1999/xlink" width="800px" height="800px" viewBox="0 0 256 246" enable-background="new 0 0 256 246" xml:space="preserve">
                             <path d="M254,150.588v93.343H53.545v-31.916h64.591v-28.727h60.744v-32.7H254z M113.175,18.875c0,9.282,7.524,16.806,16.806,16.806
@@ -134,7 +149,7 @@
 	l46.293,46.293l17.36-17.36L56.972,126.433z" />
                         </svg>
                     </div>
-                    <h4 class="font-semibold text-xl text-dark mb-3">
+                    <h4 class="font-semibold text-xl text-dark mb-3 dark:text-gray-50">
                         Career Development Support
                     </h4>
                     <p class="text-body-color">
