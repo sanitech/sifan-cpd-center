@@ -148,26 +148,7 @@ Our diverse range of high-quality CPD programs caters specifically to the needs 
                 <img src="../assets/images/cpd.png" alt="" loading="lazy">
             </div>
 
-            <!-- 
-                <div class="project-container">
-                <div class="project-card">
-                    <span class="point">3.5</span>
-                    <span class="desc">Lorem, ipsum dolor.</span>
-                </div>
-                <div class="project-card">
-                    <span class="point">3.5</span>
-                    <span class="desc">Lorem, ipsum dolor.</span>
-                </div>
-                <div class="project-card">
-                    <span class="point">3.5</span>
-                    <span class="desc">Lorem, ipsum dolor.</span>
-                </div>
-                <div class="project-card">
-                    <span class="point">3.5</span>
-                    <span class="desc">Lorem, ipsum dolor.</span>
-                </div>
-            </div> -->
-            <!-- </div> -->
+           
         </section>
 
     </div>
