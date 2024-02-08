@@ -93,15 +93,12 @@ include_once 'include/navbar.php';
                     <br />
                 </span>
                 <h2 class="home-details-heading heading2">
-                    Why Choose i working CPD Center?
+                    Why I Choose working in a CPD Center?
                 </h2>
                 <span class="home-details-sub-heading">
-                    i working CPD Center is dedicated to providing high-quality
-                    professional development courses that are designed to meet the needs
-                    of working professionals. With a team of experienced instructors and
-                    a comprehensive curriculum, we offer courses in various fields to
-                    help you stay ahead in your industry. Join us today and take the
-                    next step towards achieving your career goals.
+                we're dedicated to fostering excellence in healthcare by providing accessible and relevant continuous professional development (CPD) programs. We believe that every healthcare professional deserves the opportunity to expand their
+                    knowledge and skills, ultimately leading to improved patient care across Ethiopia. <br>
+                Our diverse range of high-quality CPD programs caters specifically to the needs of doctors, nurses, pharmacists, and other healthcare workers. Whether you're seeking to stay current on industry best practices, deepen your expertise in a specific area, or explore emerging advancements, we have the right program for you.
                 </span>
             </div>
             <img alt="image" src="https://images.unsplash.com/photo-1467318339494-a32c2ada54d4?crop=entropy&amp;cs=tinysrgb&amp;fit=max&amp;fm=jpg&amp;ixid=M3w5MTMyMXwwfDF8cmFuZG9tfHx8fHx8fHx8MTcwNDA4NDcxOXw&amp;ixlib=rb-4.0.3&amp;q=80&amp;w=400" class="home-details-image" />
@@ -137,10 +134,12 @@ include_once 'include/navbar.php';
                 <h1 class="about-hero-motto">
                     Our Dream is Global Learning Transformation
                 </h1>
-                <p>we're dedicated to fostering excellence in healthcare by providing accessible and relevant continuous professional development (CPD) programs. We believe that every healthcare professional deserves the opportunity to expand their
-                    knowledge and skills, ultimately leading to improved patient care across Ethiopia. <br>
-Our diverse range of high-quality CPD programs caters specifically to the needs of doctors, nurses, pharmacists, and other healthcare workers. Whether you're seeking to stay current on industry best practices, deepen your expertise in a specific area, or explore emerging advancements, we have the right program for you.</p>
-
+                <p>SIFAN CPD Center is your one-stop shop for continuous professional development (CPD) in
+                    Ethiopia. We believe that healthcare professionals
+                    deserve the best possible education and training to deliver the highest
+                    quality care to their patients. That's why we offer a wide range of high-quality,
+                    accessible, and relevant CPD programs tailored to the needs of doctors, nurses,
+                    pharmacists, and other healthcare workers.
             </div>
 
             <!-- <div class="about-us-hero"> -->
