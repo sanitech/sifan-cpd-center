@@ -6,36 +6,6 @@ const toggleMenu = () => {
 
 const navbar = document.querySelector(".navigation");
 const body = document.querySelector("body");
-// window.addEventListener("scroll", () => {
-//   console.log(window.scrollY);
-//   if (window.scrollY > 5775) {
-//     navbar.classList.add("scrolled");
-//     navbar.classList.remove("scrolled-linear");
-//   } else if (window.scrollY > 5008) {
-//     navbar.classList.remove("scrolled");
-//     navbar.classList.remove("scrolled-linear");
-//   } else if (window.scrollY > 3837) {
-//     navbar.classList.add("scrolled");
-//     navbar.classList.remove("scrolled-linear");
-//   } else if (window.scrollY > 3168) {
-//     navbar.classList.add("scrolled");
-//     navbar.classList.remove("scrolled-linear");
-//   } else if (window.scrollY > 2464) {
-//     navbar.classList.remove("scrolled");
-//     navbar.classList.add("scrolled-linear");
-//   } else if (window.scrollY > 2336) {
-//     navbar.classList.add("scrolled");
-//   } else if (window.scrollY > 1947) {
-//     navbar.classList.remove("scrolled");
-//     navbar.classList.remove("scrolled-linear");
-//   } else if (window.scrollY > 560) {
-//     navbar.classList.add("scrolled");
-//     navbar.classList.remove("scrolled-linear");
-//   } else {
-//     navbar.classList.remove("scrolled");
-//     navbar.classList.remove("scrolled-linear");
-//   }
-// });
 
 const sections = document.querySelectorAll("section");
 const socialMediaSection = document.querySelector(".social-media");
@@ -116,7 +86,7 @@ const socialFetch = () => {
   social.forEach((social) => {
     console.log(social.name);
     socialMediaSection.innerHTML += `
-     <a class="mx-1.5 dark:hover:text-blue-400 text-gray-400 transition-colors duration-300 transform hover:text-blue-500" href="#">
+     <a class="mx-1.5 dark:hover:text-blue-400 text-gray-400 transition-colors duration-300 transform hover:text-blue-500" href="${social.link}" target="_blank">
                            ${social.icon}
       </a>
     `;

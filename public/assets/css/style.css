@@ -833,6 +833,9 @@ button {
   margin: 30px auto;
   gap: 1rem;
 }
+.about-hero-container p{
+  text-align: justify;
+}
 .about-cont {
   background-color: var(--secondary-background-continue);
 }

@@ -137,12 +137,9 @@ include_once 'include/navbar.php';
                 <h1 class="about-hero-motto">
                     Our Dream is Global Learning Transformation
                 </h1>
-                <p>SIFAN CPD Center is your one-stop shop for continuous professional development (CPD) in
-                    Ethiopia. We believe that healthcare professionals
-                    deserve the best possible education and training to deliver the highest
-                    quality care to their patients. That's why we offer a wide range of high-quality,
-                    accessible, and relevant CPD programs tailored to the needs of doctors, nurses,
-                    pharmacists, and other healthcare workers.</p>
+                <p>we're dedicated to fostering excellence in healthcare by providing accessible and relevant continuous professional development (CPD) programs. We believe that every healthcare professional deserves the opportunity to expand their
+                    knowledge and skills, ultimately leading to improved patient care across Ethiopia. <br>
+Our diverse range of high-quality CPD programs caters specifically to the needs of doctors, nurses, pharmacists, and other healthcare workers. Whether you're seeking to stay current on industry best practices, deepen your expertise in a specific area, or explore emerging advancements, we have the right program for you.</p>
 
             </div>
 
@@ -151,25 +148,7 @@ include_once 'include/navbar.php';
                 <img src="../assets/images/cpd.png" alt="" loading="lazy">
             </div>
 
-            <!-- <div class="project-container">
-                <div class="project-card">
-                    <span class="point">3.5</span>
-                    <span class="desc">Lorem, ipsum dolor.</span>
-                </div>
-                <div class="project-card">
-                    <span class="point">3.5</span>
-                    <span class="desc">Lorem, ipsum dolor.</span>
-                </div>
-                <div class="project-card">
-                    <span class="point">3.5</span>
-                    <span class="desc">Lorem, ipsum dolor.</span>
-                </div>
-                <div class="project-card">
-                    <span class="point">3.5</span>
-                    <span class="desc">Lorem, ipsum dolor.</span>
-                </div>
-            </div> -->
-            <!-- </div> -->
+           
         </section>
 
     </div>
@@ -211,7 +190,7 @@ if (!empty($team)) : ?>
                 <div class="space-y-4 text-center">
                     <img class="w-64 h-64 mx-auto object-cover rounded-xl md:w-48 md:h-64 lg:w-64 lg:h-80" src="assets/images/sifan cpd co founder.png" alt="man" loading="lazy" width="1000" height="667">
                     <div>
-                        <h4 class="text-2xl">Jonathan Doe</h4>
+                        <h4 class="text-2xl">Yetinayet Bogale(HO)</h4>
                         <span class="block text-sm text-gray-500 dark:text-gray-600">Co-funder</span>
                     </div>
                 </div>
@@ -235,7 +214,7 @@ if (!empty($team)) : ?>
 
 
 
-    <!-- event section start -->
+<!-- event section start -->
 <?php
 endif;
 if (!empty($event)) : ?>
